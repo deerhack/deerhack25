@@ -15,28 +15,28 @@ import NewDevelopmentSVG from "@/app/assets/images/NewDevelopment";
 
 export default function BenefitsCards() {
   return (
-    <div className="flex flex-row flex-wrap justify-center gap-6 mx-10 mt-10">
-      <div className="flex flex-col gap-6">
+    <div className="flex flex-col justify-center gap-5 mx-10 mt-10">
+      <div className="flex flex-col gap-[1.7rem] lg:gap-5 lg:flex-row">
         <CardDark
           title="Build Powerful Network"
           description="DeerHack is the perfect platform to find like-minded people and build your connections."
           pgNo="1."
-          svg={<NewNetworksSVG height={100} width={100} opacity={1}/>}
+          svg={<NewNetworksSVG height={100} width={100} />}
         />
-        <CardDark
-          title="Career Opportunities"
-          description="Showcase talents, gain hands-on experience, and develop crucial skills like problem-solving and teamwork for career success."
-           pgNo="3."
-          svg={<NewOpportunitySVG className="opacity-[100%]"/>}
-        />
-      </div>
-
-      <div className="flex flex-col gap-6">
         <CardLight
           title="Support for Your Ideas"
           description="DeerHack is dedicated to fostering ideas that drive global change and provide new solutions."
            pgNo="2."
           svg={<UpdatedIdeasSVG />}
+        />
+      </div>
+
+      <div className="flex flex-col gap-[4.8rem] lg:gap-5 lg:flex-row">
+      <CardDark
+          title="Career Opportunities"
+          description="Showcase talents, gain hands-on experience, and develop crucial skills like problem-solving and teamwork for career success."
+           pgNo="3."
+          svg={<NewOpportunitySVG className="opacity-50"/>}
         />
         <CardLight
           title="Interpersonal Development"

@@ -45,7 +45,7 @@ const Navbar = () => {
 
   return (
     <div className="relative">
-      <header className="fixed bg-violet/50 w-screen isolate z-10 mx-auto shadow-lg backdrop-blur-lg">
+      <header className="fixed bg-violet/50 w-screen isolate z-20 mx-auto shadow-lg backdrop-blur-lg">
         <nav
           className={`flex w-screen flex-row justify-${isMenuOpen ? "" : "evenly"
             } lg:px-28 gap-x-28 gap-y-8 py-4 items-start ${isMenuOpen ? "flex-col bg-dark-purple  h-screen " : "flex-row"
