@@ -10,6 +10,22 @@
   .primary-gradient-background {
     background: linear-gradient(140.3deg, #6633cc -15.9%, #f5c144 72.56%);
   }
+  
+  .new-gradient-background {
+    background: linear-gradient(45deg, #4A3394 -70%, #241A4A26 70%);
+  }
+
+  .secondary-gradient-background {
+    /* background: linear-gradient(225deg, #17102E00 -90%, #4A3394 20%); */
+    background: linear-gradient(315deg, #4A3394 -70%, #241A4A26 70%);
+  width: 100%;
+  height: 100vh;
+  }
+
+  .primary-border-background{
+    background: #110C24;
+ 
+  }
 
   .text-primary-gradient-color {
     @apply bg-gradient-to-r from-primary from-1% to-secondary bg-clip-text text-transparent;
