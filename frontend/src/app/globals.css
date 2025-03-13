@@ -28,7 +28,7 @@
   }
 
   .text-main-title {
-    background: linear-gradient(270deg, #F5C144 0%, #6633CC 100%);
+    @apply bg-gradient-to-l from-[#F5C144] from-0% to-[#6633CC] to-100% bg-clip-text text-transparent;
   }
 
   .text-primary-gradient-color {
@@ -56,6 +56,6 @@
   }
 
   .headings {
-    @apply text-center text-3xl lg:text-6xl text-primary-gradient-color w-fit mx-auto px-4 md:px-0;
+    @apply text-center text-3xl lg:text-6xl text-main-title w-fit mx-auto px-4 md:px-0;
   }
 }
