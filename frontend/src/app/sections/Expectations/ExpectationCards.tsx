@@ -16,50 +16,67 @@ export default function ExpectationCards(): ReactElement {
     console.log("Expectation cards is triggered");
     setCurrentIndex((prev) => (prev == index ? -1 : index));
   };
+
   return (
-    <div className="flex lg:flex-row flex-col justify-around w-[90vw] lg:w-[80vw] lg:max-w-[60vw] mx-auto mt-10 items-center lg:items-start gap-5">
-      <div className="flex flex-col py-10 gap-5">
+    <div className="flex flex-col lg:flex-row justify-around w-[90vw] lg:w-[80vw] lg:max-w-[60vw] mx-auto mt-10 items-center lg:items-start lg:gap-32 gap-5">
+      
+    
+      <div className="lg:hidden w-[279px]  flex justify-center">
+        <ExpectationImage
+          imageSrc={
+            currentIndex === 0
+              ? fun_games_image
+              : currentIndex === 1
+              ? live_music_image
+              : currentIndex === 2
+              ? workshop_image
+              : fun_games_image
+          }
+        />
+      </div>
+
+      
+      <div className="flex flex-col py-10 gap-5 lg:mr-auto">
         <div onClick={() => toggleImageIndex(0)}>
           <ExpectationCard
-            imageSrc={fun_games_image}
-            svg={FunGamesSVG({ height: 40, width: 40 })}
+            svg={<FunGamesSVG height={40} width={40} />}
             title="Fun Games"
             description="Get ready to unleash your competitive spirit and bond with fellow participants in a series of exciting challenges and friendly competitions."
             index={0}
-            isActive={currentIndex == 0}
+            isActive={currentIndex === 0}
           />
         </div>
         <div onClick={() => toggleImageIndex(1)}>
           <ExpectationCard
-            svg={WorkshopSVG({ height: 40, width: 40 })}
-            title="Workshops"
+            svg={<MusicSVG height={40} width={40} />}
+            title="Live Music"
+            description="Take a break from coding and immerse yourself in the soulful melodies and electrifying beats of live music performances, adding rhythm and energy to your DeerHack experience."
             index={1}
-            imageSrc={workshop_image}
-            description="Dive deep into cutting-edge technologies, sharpen your skills, and gain invaluable insights from industry experts through interactive workshops tailored to enhance your expertise and ignite your innovation."
-            isActive={currentIndex == 1}
+            isActive={currentIndex === 1}
           />
         </div>
         <div onClick={() => toggleImageIndex(2)}>
           <ExpectationCard
-            svg={MusicSVG({ height: 40, width: 40 })}
-            title="Live Music"
-            imageSrc={live_music_image}
+            svg={<WorkshopSVG height={40} width={40} />}
+            title="Workshops"
+            description="Dive deep into cutting-edge technologies, sharpen your skills, and gain invaluable insights from industry experts through interactive workshops tailored to enhance your expertise and ignite your innovation."
             index={2}
-            description="Take a break from coding and immerse yourself in the soulful melodies and electrifying beats of live music performances, adding rhythm and energy to your DeerHack experience."
-            isActive={currentIndex == 2}
+            isActive={currentIndex === 2}
           />
         </div>
       </div>
+
+     
       <div className="hidden lg:block cursor-pointer">
         <ExpectationImage
           imageSrc={
-            currentIndex == 0
+            currentIndex === 0
               ? fun_games_image
-              : currentIndex == 1
-                ? workshop_image
-                : currentIndex == 2
-                  ? live_music_image
-                  : fun_games_image
+              : currentIndex === 1
+              ? live_music_image
+              : currentIndex === 2
+              ? workshop_image
+              : fun_games_image
           }
         />
       </div>
