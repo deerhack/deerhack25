@@ -19,6 +19,8 @@ const config: Config = {
         magnolia: "#FCF7FF",
         green: "#004F2D",
         red: "#c70017",
+        statpurp:"#291954",
+       
       },
       gradientColorStopPositions: {
         3: "3%",

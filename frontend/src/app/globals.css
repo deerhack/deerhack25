@@ -22,6 +22,11 @@
   .text-secondary-gradient-color-reverse {
     @apply bg-gradient-to-tl from-secondary from-1% to-primary bg-clip-text text-transparent;
   }
+  .card-background-gradient{
+    background: linear-gradient(288.92deg, rgba(74, 51, 148, 0.44) 5.97%, rgba(23, 16, 46, 0) 115.22%),
+  linear-gradient(270deg, rgba(36, 26, 74, 0.15) 0%, rgba(36, 26, 74, 0) 95.92%);
+
+  }
 
   .font-cabinet-light {
     font-family: var(--font-cabinet-light);
@@ -34,7 +39,7 @@
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
-
+ 
   .headings {
     @apply text-center text-3xl lg:text-6xl text-primary-gradient-color w-fit mx-auto px-4 md:px-0;
   }
