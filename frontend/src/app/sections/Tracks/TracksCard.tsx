@@ -5,6 +5,7 @@ import InteractiveTechnologySVG from "@/app/assets/icons/InteractiveTechnology";
 import DataScienceSVG from "@/app/assets/icons/DataScience";
 import BlockchainSVG from "@/app/assets/icons/Blockchain";
 import OpenInnovationSVG from "@/app/assets/icons/OpenInnovation";
+import EdTechSVG from "@/app/assets/icons/EdTech";
 import TracksBodyCard from "@/app/components/Tracks/TracksBodyCard";
 import ArrowSVG from "@/app/assets/icons/ArrowSVG";
 import { useRef } from "react";
@@ -17,8 +18,8 @@ const TracksCard = () => {
   const trackData = [
     {
       title: "Interactive Technology",
-      svg: <InteractiveTechnologySVG height={25} width={25} />,
-      svgBody: <InteractiveTechnologySVG height={50} width={50} />,
+      svg: <InteractiveTechnologySVG height={24} width={24} />,
+      svgBody: <InteractiveTechnologySVG height={84} width={84} />,
       headStyling:
         selectedTrack === "Interactive Technology"
           ? "bg-grape text-magnolia active"
@@ -63,6 +64,19 @@ const TracksCard = () => {
       description:
         "Transforming Challenges into Opportunities at DeerHack. Be part of the solution, forging a brighter future for all.",
     },
+    {
+      title: "Ed-Tech",
+      svg: <EdTechSVG height={25} width={25} />,
+      svgBody: <EdTechSVG height={50} width={50} />,
+      headStyling:
+        selectedTrack === "Ed-Tech"
+          ? "gradient-bg text-magnolia active"
+          : "bg-violet hover:gradient-bg hover:text-magnolia",
+      bodyStyling: "gradient-bg text-magnolia",
+      description:
+        "Embrace Decentralization with DeerHack. Explore smart contracts, secure transactions, and reshape industries at the forefront of innovation.",
+    },
+    
   ];
 
   const handleTrackSelection = (title: string) => {
@@ -79,15 +93,10 @@ const TracksCard = () => {
   };
 
   return (
-    <div className="w-[85vw] mx-auto">
+    <div className="lg:w-[67.25rem]  mx-5 lg:mx-auto">
+     
       <div
-        className="flex xl:hidden mb-5 hover:cursor-pointer justify-end p-4 items-center"
-        onClick={handleArrowClick}
-      >
-        <ArrowSVG />
-      </div>
-      <div
-        className={`flex justify-start xl:justify-center items-start text-magnolia gap-8 overflow-x-auto pb-4 no-scrollbar`}
+        className={`flex  lg:justify-center items-start text-magnolia  lg:gap-3 md:gap-6 gap-3 overflow-x-auto  no-scrollbar justify-evenly`}
         ref={containerRef}
       >
         {trackData.map((track, index) => (

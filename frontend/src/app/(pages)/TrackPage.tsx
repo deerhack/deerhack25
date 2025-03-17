@@ -14,7 +14,7 @@ const TrackPage = () => {
           className="absolute bottom-0 left-0 xl:block hidden"
         />
         <div className="py-20 mt-16">
-          <p className={`mb-8 ${cabinetExtraBold.className} headings`}>
+          <p className={`mb-8 ${cabinetExtraBold.className} track-heading`}>
             Tracks
           </p>
           <TracksCard />

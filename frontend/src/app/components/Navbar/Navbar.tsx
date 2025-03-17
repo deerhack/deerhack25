@@ -146,7 +146,7 @@ const Navbar = () => {
         </nav>
       </header>
       <div
-        className={`${isResourceOpen ? "opacity-1" : "opacity-0 duration-500"
+        className={`${isResourceOpen ? "opacity-1" : "hidden duration-500"
           } fixed bg-violet/50  backdrop-blur-md ${cabinetMedium.className} shadow-lg transition-all ease-in-out duration-500 z-20 text-white invisible rounded-br-xl rounded-bl-xl lg:visible lg:right-[15%] border-sm xl:right-[13.5%] xl2:right-[12.5%] xl3:right-[12%] xl4:right-[13.5vw]  xl5:right-[16.5vw] top-20 mt-[0.25rem]`}
       >
         <ul className="w-[18.6rem] mt-0.5 text-left list-none">

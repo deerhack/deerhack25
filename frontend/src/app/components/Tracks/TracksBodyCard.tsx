@@ -27,14 +27,14 @@ const TracksBodyCard: React.FC<TracksBodyCardProps> = ({
         <div className="rounded-full w-16 h-16 flex items-center justify-start">
           {svg}
         </div>
-        <div className={`${bodyStyling} flex flex-col`}>
+        <div className={`flex flex-col `}>
           <p
             className={`lg:text-3xl text-2xl xl:mt-4 mt-2 ${cabinetBold.className}`}
           >
             {title}
           </p>
           <span
-            className={`lg:text-xl text-lg xl:mt-10 mt-4 ${cabinetMedium.className}`}
+            className={`lg:text-xl text-lg xl:mt-10 w-[70%] mt-4 ${cabinetMedium.className}`}
           >
             {description}
           </span>
@@ -43,7 +43,7 @@ const TracksBodyCard: React.FC<TracksBodyCardProps> = ({
 
       <div className="flex flex-col">
         <p className={`text-base ${cabinetExtraBold.className}`}>WINNER GETS</p>
-        <span className={`${cabinetExtraBold.className} lg:text-6xl text-5xl`}>
+        <span className={`${cabinetExtraBold.className} lg:text-7xl text-5xl mt-11`}>
           Rs. 15,000
         </span>
       </div>
