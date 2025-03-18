@@ -11,8 +11,8 @@ import IncreaseStatSVG from "@/app/assets/images/increaseStat";
 import DecreaseStatSVG from "@/app/assets/images/decreaseStat";
 export default function CardLarge(): ReactElement {
   return (
-    <div className="bg-gradient-to-r from-[#F5C144] to-[#6633CC] p-[2px] rounded-xl">
-      <div className="rounded-xl md:h-full h-[30rem] w-80 lg:w-[24rem] bg-violet  flex flex-col px-6 pt-4 pb-16 justify-between">
+    <div className="bg-gradient-to-r from-[#6633CC] to-[#F5C144] p-[2px] rounded-xl">
+      <div className="rounded-xl md:h-full h-[30rem] w-80 lg:w-[24rem] bg-dark-purple  flex flex-col px-6 pt-4 pb-16 justify-between">
         
         <div className="flex flex-col gap-2">
           <GenderSVG height={40} width={40} />
@@ -31,7 +31,7 @@ export default function CardLarge(): ReactElement {
           {/* Male Stats */}
           <div className="flex flex-col gap-2 items-center">
             <div className="flex items-center gap-2 self-start">
-              <div className="h-4 w-4 bg-grape  rounded-full self-start"></div>
+              <div className="h-4 w-4 bg-cardgrape  rounded-full self-start"></div>
               <p className={`${cabinetMedium.className} text-white text-sm`}>
                 Male
               </p>
