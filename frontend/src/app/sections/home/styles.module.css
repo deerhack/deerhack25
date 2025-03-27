@@ -1,0 +1,16 @@
+.hero_background_container {
+  background-image: url("../../assets/icons/Hero.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120vh;
+  position: relative;
+  background-position-x: left;
+}
+
+@media screen and (max-width: 500px) {
+  .hero_background_container {
+    background-image: url("../../assets/images/Hero_mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .from-1\% {
+    --tw-gradient-from-position: 1%;
+  }
+
+  .primary-gradient-background {
+    background: linear-gradient(140.3deg, #6633cc -15.9%, #f5c144 72.56%);
+  }
+
+  .text-primary-gradient-color {
+    @apply bg-gradient-to-r from-primary from-1% to-secondary bg-clip-text text-transparent;
+  }
+
+  .text-primary-gradient-color-reverse {
+    @apply bg-gradient-to-bl from-primary from-1% to-secondary bg-clip-text text-transparent;
+  }
+
+  .text-secondary-gradient-color-reverse {
+    @apply bg-gradient-to-tl from-secondary from-1% to-primary bg-clip-text text-transparent;
+  }
+
+  .font-cabinet-light {
+    font-family: var(--font-cabinet-light);
+  }
+
+  .font-cabinet-bold {
+    font-family: var(--font-cabinet-bold);
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .headings {
+    @apply text-center text-3xl lg:text-6xl text-primary-gradient-color w-fit mx-auto px-4 md:px-0;
+  }
+}
