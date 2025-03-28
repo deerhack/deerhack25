@@ -2,6 +2,7 @@
 import { useState } from "react";
 import TracksHeading from "@/app/components/Tracks/TracksHeadingCard";
 import InteractiveTechnologySVG from "@/app/assets/icons/InteractiveTechnology";
+import InteractiveTechnologyNewSVG from "@/app/assets/icons/InteractiveTechnologyNew";
 import DataScienceSVG from "@/app/assets/icons/DataScience";
 import BlockchainSVG from "@/app/assets/icons/Blockchain";
 import OpenInnovationSVG from "@/app/assets/icons/OpenInnovation";
@@ -19,7 +20,7 @@ const TracksCard = () => {
     {
       title: "Interactive Technology",
       svg: <InteractiveTechnologySVG height={24} width={24} />,
-      svgBody: <InteractiveTechnologySVG height={84} width={84} />,
+      svgBody: <InteractiveTechnologyNewSVG height={204} width={204} />,
       headStyling:
         selectedTrack === "Interactive Technology"
           ? "bg-grape text-magnolia active"
@@ -38,7 +39,7 @@ const TracksCard = () => {
           : "bg-violet hover:bg-purpures hover:text-magnolia",
       bodyStyling: "bg-purpures text-magnolia",
       description:
-        "Dive deep into the captivating realm of Data Analysis and Predictive Modeling, Leveraging algorithms to extract meaningful patterns and trends",
+        "Dive deep into the captivating realm of Data Analysis and Predictive Modeling, Leveraging algorithms ",
     },
     {
       title: "Blockchain",
