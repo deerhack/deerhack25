@@ -20,10 +20,10 @@ export default function MainExpCard({
 }){
     return(
         <div className="exp-gradient-background w-[20.251rem] lg:w-[24.428rem] h-[26rem] lg:h-[29.569rem] rounded-[1.563rem] 
-        p-[0.1875rem]">
-        <div className=" bg-[#1A1130] w-full h-full  rounded-[1.563rem] flex flex-col px-12 pt-9 pb-10 gap-8 justify-start md:pt-14">
+        p-[0.1875rem] relative items-center">
+        <div className=" bg-[#1A1130] w-full h-full  rounded-[1.563rem] flex flex-col px-12 pt-9 pb-10 justify-start md:pt-14">
 
-          <div className="flex flex-col  gap-10 h-[70%] md:h-auto  md:flex-row  md:items-center relative left-[-1.2rem] md:left-2">
+          <div className="flex flex-col h-[70%] md:h-auto  md:flex-row  md:items-center relative left-[-1.2rem] md:left-2">
             <div className="absolute md:top-[-0.5rem] lg:top-[0.5rem] md:right-[0.1rem] lg:right-[0.1rem] ">{svg}</div>
             <div
               className={`${cabinetRegular.className} text-white w-[16.147rem]  lg:w-[19.045rem] h-[8.033rem] lg:h-[10.331rem]

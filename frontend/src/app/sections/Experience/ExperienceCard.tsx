@@ -86,20 +86,22 @@ export default function ExperienceCard() {
   }, [activeIndex]);
 
   return (
-    <div ref={scrollRef} className=" gap-6 mt-10 ml-[9vw]">
+    <div ref={scrollRef} className="gap-6 mt-10 ml-[9vw] snap-center relative items-center">
       {/* {Make each div snappy (research), 
         for each snap shift the dot button by 1. Reset buttons at 3}
         To achieve this lift the scrollRef value to DeerhackExperiencePage.tsx
         */}
-      <div className="flex flex-row gap-6" ref={scrollRef}>
+      <div className="flex flex-row gap-6 snap-center" ref={scrollRef}>
         {testimonials.map((testimonial, index) => (
+          <div className="snap-center" key={index}>
           <MainExpCard
-            key={index}
+          key={index}
             description={testimonial.description}
             bottomText={testimonial.bottomText}
             finBottomText={testimonial.finBottomText}
             svg={testimonial.svg}
           />
+          </div>
         ))}
       </div>
 

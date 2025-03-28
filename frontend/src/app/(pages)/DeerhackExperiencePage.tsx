@@ -41,13 +41,13 @@ export default function ExperiencePage() {
         The DeerHack Experience
       </div>
 
-      <div className="flex flex-col">
+      <div className="w-full flex flex-col">
         <div
           ref={scrollContainerRef}
-          className="w-full mx-auto md:mx-0 overflow-x-auto lg:overflow-x-visible scroll-smooth snap-x snap-mandatory md:no-scrollbar p-2"
+          className="w-full mx-auto md:mx-0 overflow-x-auto scroll-smooth snap-x snap-mandatory md:no-scrollbar p-2"
         >
-          <div className="flex space-x-4">
-            <div className="snap-center">
+          <div className="w-full flex space-x-4 snap-x snap-mandatory">
+            <div className="snap-x snap-mandatory">
               <ExperienceCard />
             </div>
 
