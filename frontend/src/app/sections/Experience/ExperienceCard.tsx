@@ -1,20 +1,18 @@
-"use client";
-import MentorReviewSVG from "@/app/assets/images/MentorReview";
-import VolunteerReviewSVG from "@/app/assets/images/VolunteerReview";
-import MainExpCard from "@/app/components/TheDeerHackExp/MainExpCard";
-import { useRef, useState, useEffect, ReactElement } from "react";
+"use client"
+import MentorReviewSVG from "@/app/assets/images/MentorReview"
+import VolunteerReviewSVG from "@/app/assets/images/VolunteerReview"
+import MainExpCard from "@/app/components/TheDeerHackExp/MainExpCard"
+import type { ReactElement } from "react"
 
 type Testimonial = {
-  id: number;
-  description: string;
-  bottomText: string;
-  finBottomText: string;
-  svg: ReactElement;
-};
+  id: number
+  description: string
+  bottomText: string
+  finBottomText: string
+  svg: ReactElement
+}
 
-export default function ExperienceCard() {
-  const scrollRef = useRef<HTMLDivElement>(null);
-  const [activeIndex, setActiveIndex] = useState(0);
+export default function ExperienceCard({ activeIndex = 0 }) {
   const testimonials: Testimonial[] = [
     {
       id: 1,
@@ -40,84 +38,20 @@ export default function ExperienceCard() {
       finBottomText: "DeerHack 2024",
       svg: <MentorReviewSVG />,
     },
-  ];
-
-  const scrollToSlide = (index: number) => {
-    if (scrollRef.current) {
-      const slideWidth = scrollRef.current.offsetWidth;
-      scrollRef.current.scrollTo({
-        left: slideWidth * index,
-        behavior: "smooth",
-      });
-      setActiveIndex(index);
-    }
-  };
-
-  const nextSlide = () => {
-    const newIndex =
-      activeIndex === testimonials.length - 1 ? 0 : activeIndex + 1;
-    scrollToSlide(newIndex);
-  };
-
-  const prevSlide = () => {
-    const newIndex =
-      activeIndex === 0 ? testimonials.length - 1 : activeIndex - 1;
-    scrollToSlide(newIndex);
-  };
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (scrollRef.current) {
-        const scrollPosition = scrollRef.current.scrollLeft;
-        const slideWidth = scrollRef.current.offsetWidth;
-        const newIndex = Math.round(scrollPosition / slideWidth);
-
-        if (newIndex !== activeIndex) {
-          setActiveIndex(newIndex);
-        }
-      }
-    };
-
-    const scrollContainer = scrollRef.current;
-    if (scrollContainer) {
-      scrollContainer.addEventListener("scroll", handleScroll);
-      return () => scrollContainer.removeEventListener("scroll", handleScroll);
-    }
-  }, [activeIndex]);
+  ]
 
   return (
-    <div ref={scrollRef} className="gap-6 mt-10 ml-[9vw] snap-center relative items-center">
-      {/* {Make each div snappy (research), 
-        for each snap shift the dot button by 1. Reset buttons at 3}
-        To achieve this lift the scrollRef value to DeerhackExperiencePage.tsx
-        */}
-      <div className="flex flex-row gap-6 snap-center" ref={scrollRef}>
-        {testimonials.map((testimonial, index) => (
-          <div className="snap-center" key={index}>
+    <div className="flex flex-row gap-6 snap-x snap-mandatory">
+      {testimonials.map((testimonial, index) => (
+        <div key={testimonial.id} className="flex justify-center snap-center min-w-full lg:min-w-[400px]">
           <MainExpCard
-          key={index}
             description={testimonial.description}
             bottomText={testimonial.bottomText}
             finBottomText={testimonial.finBottomText}
             svg={testimonial.svg}
           />
-          </div>
-        ))}
-      </div>
-
-      {/* <div className="flex justify-center mt-4">
-        {testimonials.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => scrollToSlide(index)}
-            className={`h-2 mx-1 rounded-full transition-all ${
-              activeIndex === index
-                ? "bg-white w-4"
-                : "bg-gray-500 w-2 opacity-50"
-            }`}
-          ></button>
-        ))}
-      </div> */}
+        </div>
+      ))}
     </div>
-  );
+  )
 }

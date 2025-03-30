@@ -1,11 +1,9 @@
 "use client"
 import { cabinetExtraBold } from "../utils/fonts"
-// Use dynamic imports to prevent build errors if files don't exist
-const leaf_prizes_right = "/placeholder.svg?height=250&width=250"
-const leaf_deerhack2023_right = "/placeholder.svg?height=250&width=250"
+import leaf_right_deerhack_2025 from "@/app/assets/images/leaf_right_deerhack_2025.svg";
 import Image from "next/image"
 import ExperienceCard from "../sections/Experience/ExperienceCard"
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
 
 export default function ExperiencePage() {
   const [activeCard, setActiveCard] = useState(0)
@@ -14,22 +12,41 @@ export default function ExperiencePage() {
   const handleDotClick = (index: number) => {
     setActiveCard(index)
 
-    // Scroll to the selected card
     if (scrollContainerRef.current) {
-      const cardWidth = scrollContainerRef.current.querySelector(".snap-center")?.clientWidth || 0
-      const spacing = 16 // space-x-4 = 1rem = 16px
+      const cardWidth = scrollContainerRef.current.clientWidth
       scrollContainerRef.current.scrollTo({
-        left: index * (cardWidth + spacing),
+        left: index * cardWidth,
         behavior: "smooth",
       })
     }
   }
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (scrollContainerRef.current) {
+        const scrollPosition = scrollContainerRef.current.scrollLeft
+        const cardWidth = scrollContainerRef.current.clientWidth
+        const newIndex = Math.round(scrollPosition / cardWidth)
+
+        if (newIndex !== activeCard && newIndex >= 0 && newIndex <= 2) {
+          setActiveCard(newIndex)
+        }
+      }
+    }
+
+    const scrollContainer = scrollContainerRef.current
+    if (scrollContainer) {
+      scrollContainer.addEventListener("scroll", handleScroll)
+      return () => scrollContainer.removeEventListener("scroll", handleScroll)
+    }
+  }, [activeCard])
+
   return (
-    <div className="bg-dark-purple flex flex-col py-20 overflow-hidden relative">
+    <div className="bg-dark-purple flex flex-col py-20 overflow-hidden relative gap-10">
       <div className="relative">
+        
         <Image
-          src={leaf_prizes_right || "/placeholder.svg"}
+          src={leaf_right_deerhack_2025}
           alt="leaf"
           height={250}
           width={250}
@@ -37,25 +54,20 @@ export default function ExperiencePage() {
         />
       </div>
 
-      <div className={`${cabinetExtraBold.className} headings w-[17.875rem] md:w-[45rem] md:h-[6rem]`}>
+      <div className={`${cabinetExtraBold.className} headings w-[17.875rem] md:w-[45rem] md:h-[6rem] `}>
         The DeerHack Experience
       </div>
 
       <div className="w-full flex flex-col">
         <div
           ref={scrollContainerRef}
-          className="w-full mx-auto md:mx-0 overflow-x-auto scroll-smooth snap-x snap-mandatory md:no-scrollbar p-2"
+          className="w-full overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar p-2 lg:flex lg:justify-center"
         >
-          <div className="w-full flex space-x-4 snap-x snap-mandatory">
-            <div className="snap-x snap-mandatory">
-              <ExperienceCard />
-            </div>
-
-          </div>
+          <ExperienceCard activeIndex={activeCard} />
         </div>
 
         {/* Dots indicator */}
-        <div className="flex justify-center mt-6 space-x-2">
+        <div className="flex justify-center mt-6 space-x-2  lg:hidden">
           {[0, 1, 2].map((index) => (
             <button
               key={index}
@@ -70,7 +82,7 @@ export default function ExperiencePage() {
       </div>
 
       <Image
-        src={leaf_deerhack2023_right || "/placeholder.svg"}
+        src={leaf_right_deerhack_2025}
         alt="leaf"
         height={250}
         width={250}
