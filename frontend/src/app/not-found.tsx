@@ -1,3 +1,4 @@
+
 "use client";
 
 import Link from "next/link";
@@ -8,12 +9,11 @@ import GoBackToHome from "./components/GoBack/GoBackToHome";
 
 export default function NotFound() {
   return (
-   
     <div
-      className={`${styles.background_container} relative`}
+      className={`${styles.background_container} h-screen flex justify-center`}
     >
-       <div
-        className={`${styles.muted_color} rounded-[0.65rem] w-[80vw] md:w-[45.792rem] max-w-[1080px] h-fit lg:h-[12.006rem] flex flex-col gap-4 justify-center items-center  border-secondary border-2 backdrop-blur-sm px-2 py-6 mx-auto absolute bottom-[13rem] right-[10rem]`}
+      <div
+        className={`${styles.muted_color} rounded-[0.65rem] w-[80vw] md:w-[50vw] max-w-[1080px] h-fit lg:h-[24vh] flex flex-col gap-4 justify-center items-center  border-secondary border-2 backdrop-blur-sm px-2 py-6 mx-auto absolute top-[60%]`}
       >
         <p
           className={`${cabinetExtraBold.className} text-primary-gradient-color-reverse w-fit text-5xl text-center`}
@@ -21,9 +21,8 @@ export default function NotFound() {
           Nobody Seems to be here!
         </p>
         <GoBackToHome />
-      </div> 
+      </div>
     </div>
-
   );
 }
 

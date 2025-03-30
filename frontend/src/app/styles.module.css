@@ -1,24 +1,19 @@
 .background_container {
-  background-image: url("./assets/images/new_404_image.svg");
+  background-image: url("./assets/images/404_Desktop_Upscaled.svg");
   background-position: top;
-  background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-
 }
 
 .muted_color {
-  background-color: rgba(17, 12, 36, 0.3);
+  background-color: rgba(17, 12, 36, 0.6);
 }
 
 @media (max-width: 3000px) {
   .background_container {
-    background-image: url("./assets/images/new_404_image.svg");
+    background-image: url("./assets/images/404_Desktop_Upscaled.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    height: 100vh;
-
   }
 }
 
