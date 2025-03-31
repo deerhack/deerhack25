@@ -12,7 +12,7 @@ import DecreaseStatSVG from "@/app/assets/images/decreaseStat";
 export default function CardLarge(): ReactElement {
   return (
     <div className="bg-gradient-to-r from-[#6633CC] to-[#F5C144] p-[2px] rounded-xl">
-      <div className="rounded-xl md:h-full h-[30rem] w-80 lg:w-[24rem] bg-dark-purple  flex flex-col px-6 pt-4 pb-16 justify-between">
+      <div className="rounded-xl md:h-full sm:h-full h-[30rem] w-80 lg:w-[24rem] bg-dark-purple  flex flex-col px-6 pt-4 pb-16 justify-between">
         
         <div className="flex flex-col gap-2">
           <GenderSVG height={40} width={40} />
