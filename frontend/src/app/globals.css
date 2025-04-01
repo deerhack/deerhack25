@@ -34,6 +34,10 @@
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
+  .legacy-gradient{
+    background: linear-gradient(180deg, rgba(17, 12, 36, 0.77) 0%, rgba(43, 24, 54, 0.77) 122.03%);
+
+  }
 
   .headings {
     @apply text-center text-3xl lg:text-6xl text-primary-gradient-color w-fit mx-auto px-4 md:px-0;
