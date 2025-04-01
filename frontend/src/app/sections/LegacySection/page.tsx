@@ -13,7 +13,7 @@ const Page = () => {
             
             eventLead="Prayatna Mishra"
             eventColead="Bipashree Aryal"
-            date="May 5,6,7:2023"
+            date="May 5, 6, 7: 2023"
             application={1050}
             participation={75}
              />
@@ -21,7 +21,7 @@ const Page = () => {
             
             eventLead="Aasutosh Pudasaini"
             eventColead="Sampanna Gautam"
-            date="May 5,6,7:2023"
+            date="May 8, 9, 10 : 2024"
             application={1050}
             participation={75}
              />
@@ -29,7 +29,7 @@ const Page = () => {
             
             eventLead="Dipan Silwal"
             eventColead="Pragalva Sapkota"
-            date="May 5,6,7:2023"
+            date="June 5, 6, 7: 2025"
             application={1050}
             participation={75}
              />

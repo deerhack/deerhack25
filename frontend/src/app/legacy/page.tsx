@@ -18,7 +18,7 @@ export default function LegacyPage(){
   width={370.47} 
   height={252.2}
   alt="center flower"
-  className="absolute top-[700px] left-[640px]  lg:block"
+  className=" top-[700px] left-[640px] fixed  lg:block opacity-90"
 />
 
 <Image
@@ -26,7 +26,7 @@ export default function LegacyPage(){
   width={645}
   height={284}
   alt="right leaf"
-  className="absolute top-[566.57px] left-[860px]  lg:block"
+  className="top-[566.57px] left-[860px] fixed  lg:block opacity-50 z-0"
 />
 
 <Image
@@ -34,7 +34,7 @@ export default function LegacyPage(){
   width={645}
   height={284}
   alt="left leaf"
-  className="absolute top-[566.57px] left-[155px]  lg:block"
+  className="fixed top-[566.57px] left-[155px]  lg:block opacity-50 z-0"
 />
 
         </div>
