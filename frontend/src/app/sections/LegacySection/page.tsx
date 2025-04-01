@@ -1,5 +1,7 @@
 import { cabinetBold, cabinetExtraBold } from "@/app/utils/fonts";
 import LegacyCard from "@/app/components/Legacy/LegacyCards";
+import Deerhack24 from "@/app/assets/icons/MainLogo";
+import Deerhack25 from "@/app/assets/icons/DeerhackLogo";
 const Page = () => {
     return (
       <>
@@ -9,24 +11,27 @@ const Page = () => {
             Legacy
         </h1>
         <div className="flex">
+
         <LegacyCard 
-            
+            logo={<Deerhack24 width={208} height={92}/>}
             eventLead="Prayatna Mishra"
             eventColead="Bipashree Aryal"
             date="May 5, 6, 7: 2023"
             application={1050}
             participation={75}
              />
+
              <LegacyCard 
-            
+            logo={<Deerhack24 width={208} height={92}/>}
             eventLead="Aasutosh Pudasaini"
             eventColead="Sampanna Gautam"
             date="May 8, 9, 10 : 2024"
             application={1050}
             participation={75}
              />
+
              <LegacyCard 
-            
+            logo={<Deerhack24 width={208} height={92}/>}
             eventLead="Dipan Silwal"
             eventColead="Pragalva Sapkota"
             date="June 5, 6, 7: 2025"

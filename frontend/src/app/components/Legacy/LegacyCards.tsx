@@ -21,7 +21,7 @@ const LegacyCard: React.FC<LegacyCardDetails> = ({
     return (
         <div className="lg:w-[380px] lg:h-[541px]  ml-14 py-5 z-10">
         <div className="border-[3px] border-secondary rounded-lg lg:w-[380px] lg:h-[139px] legacy-gradient">
-
+        {logo}
         </div>
 
         <div className="border-2 border-secondary rounded-2xl lg:w-[380px] lg:h-[347px] mt-2  py-11 px-9  legacy-gradient">
