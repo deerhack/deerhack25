@@ -1,16 +1,17 @@
 import { cabinetBold, cabinetExtraBold } from "@/app/utils/fonts";
 import LegacyCard from "@/app/components/Legacy/LegacyCards";
 import Deerhack24 from "@/app/assets/icons/MainLogo";
-import Deerhack25 from "@/app/assets/icons/DeerhackLogo";
+import Deerhack25 from "@/app/assets/icons/Deerhack25";
+import styles from "./styles.module.css";
 const Page = () => {
     return (
       <>
        <div className="lg:w-[1351px] lg:h-[1100px]  text-white flex flex-col">
         <h1
-        className={`headings ${cabinetBold.className} text-5xl mb-16 pt-32`}>
+        className={`headings ${cabinetExtraBold.className} text-5xl mb-16 pt-32`}>
             Legacy
         </h1>
-        <div className="flex">
+        <div className="lg:flex ">
 
         <LegacyCard 
             logo={<Deerhack24 width={208} height={92}/>}
@@ -31,7 +32,7 @@ const Page = () => {
              />
 
              <LegacyCard 
-            logo={<Deerhack24 width={208} height={92}/>}
+            logo={<Deerhack25 width={208} height={92}/>}
             eventLead="Dipan Silwal"
             eventColead="Pragalva Sapkota"
             date="June 5, 6, 7: 2025"

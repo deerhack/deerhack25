@@ -18,7 +18,7 @@ export default function LegacyPage(){
   width={370.47} 
   height={252.2}
   alt="center flower"
-  className=" top-[700px] left-[640px] fixed  lg:block opacity-90"
+  className=" top-[700px] left-[640px] fixed  lg:block opacity-90 "
 />
 
 <Image
