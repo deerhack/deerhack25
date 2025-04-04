@@ -20,7 +20,7 @@ const TracksCard = () => {
     {
       title: "Interactive Technology",
       svg: <InteractiveTechnologySVG height={24} width={24} />,
-      svgBody: <InteractiveTechnologyNewSVG height={204} width={204} />,
+      svgBody: <InteractiveTechnologyNewSVG height={50} width={50} />,
       headStyling:
         selectedTrack === "Interactive Technology"
           ? "bg-grape text-magnolia active"
