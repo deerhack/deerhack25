@@ -26,7 +26,7 @@ export default function LegacyPage(){
   width={645}
   height={284}
   alt="right leaf"
-  className="top-[566.57px] left-[860px] fixed  lg:block opacity-50 z-0"
+  className="top-[566.57px] left-[860px] fixed  lg:block opacity-20 -z-10"
 />
 
 <Image
@@ -34,7 +34,7 @@ export default function LegacyPage(){
   width={645}
   height={284}
   alt="left leaf"
-  className="fixed top-[566.57px] left-[155px]  lg:block opacity-50 z-0"
+  className="fixed top-[566.57px] left-[155px]  lg:block opacity-20 z-0"
 />
 
         </div>
