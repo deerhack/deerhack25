@@ -1,6 +1,6 @@
 .background_container {
-  background-image: url("./assets/images/404_Desktop_Upscaled.svg");
   background-position: top;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -10,19 +10,22 @@
 
 @media (max-width: 3000px) {
   .background_container {
-    background-image: url("./assets/images/404_Desktop_Upscaled.svg");
+    background-image: url("./assets/images/new_404_image.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    height: 135vh;
+
   }
 }
 
 @media screen and (max-width: 960px) {
   .background_container {
-    background-image: url("./assets/images/404_phone.svg");
+    background-image: url("./assets/images/new_phone_404.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    height: 100vh;
   }
 }
 
