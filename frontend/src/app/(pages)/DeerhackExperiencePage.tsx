@@ -42,7 +42,7 @@ export default function ExperiencePage() {
   }, [activeCard])
 
   return (
-    <div className="bg-dark-purple flex flex-col py-20 overflow-hidden relative gap-10">
+    <div className="bg-dark-purple flex flex-col py-20 overflow-hidden relative gap-10 mb-36 mt-32">
       <div className="relative">
         
         <Image
@@ -50,7 +50,7 @@ export default function ExperiencePage() {
           alt="leaf"
           height={250}
           width={250}
-          className="absolute right-3 top-46 hidden xl:block -rotate-12"
+          className="absolute p-0 m-0 left-[80rem] top-46 z-10 hidden xl:block -rotate-12"
         />
       </div>
 
@@ -72,8 +72,8 @@ export default function ExperiencePage() {
             <button
               key={index}
               onClick={() => handleDotClick(index)}
-              className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                activeCard === index ? "bg-white scale-110" : "bg-white/40 hover:bg-white/60"
+              className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                activeCard === index ? "bg-white scale-100" : "bg-white/40 hover:bg-white/60"
               }`}
               aria-label={`View experience card ${index + 1}`}
             />
