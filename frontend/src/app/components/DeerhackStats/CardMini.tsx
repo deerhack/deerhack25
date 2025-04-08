@@ -18,7 +18,7 @@ export default function CardMini({
           {title}
         </p>
       </div>
-      <p className={`${cabinetRegular.className} text-4xl text-white`}>
+      <p className={`${cabinetRegular.className} text-[45px] text-white`}>
         {numbers}
       </p>
     </div>
