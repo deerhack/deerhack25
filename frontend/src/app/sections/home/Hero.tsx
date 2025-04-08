@@ -1,59 +1,59 @@
 "use client";
 import DiscordHero from "@/app/assets/icons/DiscordHero";
+import DoraHack from "@/app/assets/icons/DoraHack";
 import styles from "./styles.module.css";
-import MainLogo from "@/app/assets/icons/MainLogo";
+import DeerHack25Logo from "@/app/assets/icons/DeerHack25Logo";
 import { cabinetBold, cabinetMedium } from "@/fonts";
-import { useEffect, useState } from "react";
 import Link from "next/link";
 
-const Hero = () => {
-  // DEVFOLIO REQUIREMENTS
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://apply.devfolio.co/v2/sdk.js";
-    script.async = true;
-    script.defer = true;
-    // document.getElementById('hero_container')?.appendChild(script);
-    document.body.appendChild(script);
-    return () => {
-      // document.getElementById('hero_container')?.removeChild(script);
-      document.body.removeChild(script);
-    };
-  });
 
+const Hero = () => {
   return (
     <div
       className={` ${styles.hero_background_container} flex justify-center w-full `}
       id="hero_container"
     >
-      <div className="absolute gap-[27px] top-[90px] flex flex-col text-center lg:top-48">
-        <p
-          className={` text-3xl font-bold text-center text-secondary ${cabinetBold.className}`}
+    <div className={` px-10 py-10 lg:py-8 lg:px-14 text-center  rounded-3xl border-2 border-secondary  absolute lg:top-48 lg:w-[427px] lg:h-[447px] w-[304px] h[319px] top-48 ${styles.muted_color} md:w-[500px] md:h-[500px] md:top-72 `}>
+      <p
+          className={`  text-2xl md:text-4xl lg:text-3xl font-bold text-center text-heropage-gradient ${cabinetBold.className}`}
         >
-          10th - 12th May
+          6th - 8th June
         </p>
-        <MainLogo width={300} height={135} />
-        <div
+        <DeerHack25Logo className="mt-3 h-auto w-full md:mt-6" width={309} height={130} />
+        {/* <div
           className="apply-button"
           data-hackathon-slug="deerhack24"
           data-button-theme="light"
           style={{ height: "44px", width: "312px" }}
-        ></div>
+        ></div> */}
+         <Link
+          href="https://discord.gg/2pVf97qmzd"
+          className="w-fit mx-auto"
+          target="_blank"
+        >
+          <div className="flex flex-row justify-center items-center gap-2 py-3 px-5 bg-white w-[228px] h-[46px] md:w-[350px] md:h-[60px] lg:w-[321px] lg:h-[61px] rounded-md text-white mx-auto mt-9 transform transition-transform duration-300 hover:scale-105">
+            <DoraHack />
+            <p className={`text-orange ${cabinetBold.className}  text-xs md:text-xl lg:text-[22px] text-bold  `}>
+              Apply With DoraHacks
+            </p>
+          </div>
+        </Link>
 
         <Link
           href="https://discord.gg/2pVf97qmzd"
           className="w-fit mx-auto"
           target="_blank"
         >
-          <div className="flex flex-row justify-center items-center gap-2 p-4 bg-grape rounded-lg text-white mx-auto">
+          <div className="flex flex-row w-[182px] h-[47px] lg:w-[256px] lg:h-[67px]  md:w-[280px] md:h-[60px] justify-center items-center gap-2 p-4 border-4 border-grape  rounded-xl text-white mx-auto mt-7 hover:bg-grape transition-ease in out duration-300">
             <DiscordHero />
-            <p className={`text-white ${cabinetBold.className} text-base `}>
+            <p className={`text-white ${cabinetBold.className} text-bold text-xs md:text-xl lg:text-xl `}>
               Join Our Discord!
             </p>
           </div>
-        </Link>
+        </Link> 
       </div>
-    </div>
+      </div>
+    
   );
 };
 export default Hero;
