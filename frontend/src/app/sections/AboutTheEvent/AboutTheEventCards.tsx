@@ -3,7 +3,7 @@ import CodeSVG from "@/app/assets/icons/Code";
 import CollegeSVG from "@/app/assets/icons/College";
 const AboutTheEventCards = () => {
   return (
-    <div className="flex flex-wrap gap-5 justify-center">
+    <div className="flex flex-wrap justify-center">
       <AboutCard
         svg={CollegeSVG({ height: 30, width: 30 })}
         title="Deerwalk Institute of Technology"
