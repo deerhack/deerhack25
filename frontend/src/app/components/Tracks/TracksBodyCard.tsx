@@ -29,7 +29,7 @@ const TracksBodyCard: React.FC<TracksBodyCardProps> = ({
         </div>
         <div className={`flex flex-col `}>
           <p
-            className={`lg:text-4xl text-2xl xl:mt-4 mt-2 ${cabinetExtraBold.className} lg:w-[400px]`}
+            className={`lg:text-4xl text-3xl xl:mt-4 mt-2 ${cabinetExtraBold.className} lg:w-[400px] pb-6`}
           >
             {title}
           </p>
