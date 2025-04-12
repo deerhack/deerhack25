@@ -44,7 +44,7 @@ const Hero = () => {
           className="w-fit mx-auto"
           target="_blank"
         >
-          <div className="flex flex-row w-[182px] h-[47px] lg:w-[256px] lg:h-[67px]  md:w-[280px] md:h-[60px] justify-center items-center gap-2 p-4 border-4 border-grape  rounded-xl text-white mx-auto mt-7 hover:bg-grape transition-ease in out duration-300">
+          <div className="flex flex-row w-[182px] h-[47px] lg:w-[256px] lg:h-[67px]  md:w-[280px] md:h-[60px] justify-center items-center gap-2 p-4 border-4 border-grape  rounded-xl text-white mx-auto mt-7 hover:bg-grape">
             <DiscordHero />
             <p className={`text-white ${cabinetBold.className} text-bold text-xs md:text-xl lg:text-xl `}>
               Join Our Discord!
