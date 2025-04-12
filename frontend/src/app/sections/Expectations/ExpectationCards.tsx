@@ -18,7 +18,7 @@ export default function ExpectationCards(): ReactElement {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row justify-around w-[90vw] lg:w-[80vw] lg:max-w-[60vw] mx-auto mt-10 items-center lg:items-start lg:gap-32 gap-5">
+    <div className="flex flex-col lg:flex-row justify-center w-[90vw] lg:w-[80vw] lg:max-w-[60vw] mx-auto mt-10 items-center lg:items-start lg:gap-32 gap-5 ">
       
     
       <div className="lg:hidden w-[279px]  flex justify-center">
@@ -36,7 +36,7 @@ export default function ExpectationCards(): ReactElement {
       </div>
 
       
-      <div className="flex flex-col py-10 gap-5 lg:mr-auto">
+      <div className="flex flex-col py-10 gap-5">
         <div onClick={() => toggleImageIndex(0)}>
           <ExpectationCard
             svg={<FunGamesSVG height={40} width={40} />}
