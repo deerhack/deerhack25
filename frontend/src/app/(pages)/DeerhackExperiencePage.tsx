@@ -43,16 +43,14 @@ export default function ExperiencePage() {
 
   return (
     <div className="bg-dark-purple flex flex-col py-20 overflow-hidden relative gap-10 mb-0 md:mb-36 mt-0 md:mt-36">
-      <div className="relative">
         
         <Image
           src={leaf_right_deerhack_2025}
           alt="leaf"
           height={250}
           width={250}
-          className="absolute p-0 m-0 left-[80rem] top-46 z-10 hidden xl:block -rotate-12"
+          className="absolute p-0 m-0 right-[-30px]  z-10 hidden xl:block -rotate-12"
         />
-      </div>
 
       <div className={`${cabinetExtraBold.className} headings w-[17.875rem] md:w-[45rem] md:h-[6rem] text-[1.875rem] md:text-[3.5rem]`}>
         The DeerHack Experience
