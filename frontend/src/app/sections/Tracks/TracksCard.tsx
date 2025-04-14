@@ -10,6 +10,10 @@ import EdTechSVG from "@/app/assets/icons/EdTech";
 import TracksBodyCard from "@/app/components/Tracks/TracksBodyCard";
 import ArrowSVG from "@/app/assets/icons/ArrowSVG";
 import { useRef } from "react";
+import DataScienceNew from "@/app/assets/icons/DataScienceNew";
+import BlockchainNew from "@/app/assets/icons/BlockChainNew";
+import OpenInnovationNew from "@/app/assets/icons/OpenInnovationNew";
+import EdTechNew from "@/app/assets/icons/EdTechNew";
 
 const TracksCard = () => {
   const [selectedTrack, setSelectedTrack] = useState<string>(
@@ -32,7 +36,7 @@ const TracksCard = () => {
     {
       title: "Data Science / Machine Learning",
       svg: <DataScienceSVG height={25} width={25} />,
-      svgBody: <DataScienceSVG height={50} width={50} />,
+      svgBody: <DataScienceNew height={50} width={50} />,
       headStyling:
         selectedTrack === "Data Science / Machine Learning"
           ? "bg-purpures text-magnolia active"
@@ -44,7 +48,7 @@ const TracksCard = () => {
     {
       title: "Blockchain",
       svg: <BlockchainSVG height={25} width={25} />,
-      svgBody: <BlockchainSVG height={50} width={50} />,
+      svgBody: <BlockchainNew height={50} width={50} />,
       headStyling:
         selectedTrack === "Blockchain"
           ? "bg-magnolia text-dark-purple active"
@@ -56,7 +60,7 @@ const TracksCard = () => {
     {
       title: "Open Innovation",
       svg: <OpenInnovationSVG height={25} width={25} />,
-      svgBody: <OpenInnovationSVG height={50} width={50} />,
+      svgBody: <OpenInnovationNew height={50} width={50} />,
       headStyling:
         selectedTrack === "Open Innovation"
           ? "bg-secondary text-dark-purple active"
@@ -68,7 +72,7 @@ const TracksCard = () => {
     {
       title: "Ed-Tech",
       svg: <EdTechSVG height={25} width={25} />,
-      svgBody: <EdTechSVG height={50} width={50} />,
+      svgBody: <EdTechNew height={50} width={50} />,
       headStyling:
         selectedTrack === "Ed-Tech"
           ? "gradient-bg text-magnolia active"

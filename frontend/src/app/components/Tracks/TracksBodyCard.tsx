@@ -21,7 +21,7 @@ const TracksBodyCard: React.FC<TracksBodyCardProps> = ({
 }: TracksBodyCardProps) => {
   return (
     <div
-      className={`max-w-[1250px]  min-h-[526px]  sm:max-h-[423px] flex xl:items-center justify-start align-start flex-col xl:flex-row cursor-pointer px-8 lg:pb-44 pb-24 pt-10 text-lg ${cabinetBold.className} rounded-2xl bg-grape ${bodyStyling} gap-8`}
+      className={`max-w-[1250px]  min-h-[526px]  sm:max-h-[423px] flex xl:items-center justify-start align-start flex-col xl:flex-row cursor-pointer px-8 lg:pb-44 pb-24 pt-10 text-lg mx-10 lg:mx-0 ${cabinetBold.className} rounded-2xl bg-grape ${bodyStyling} gap-8`}
     >
       <div className="xl:w-3/5 self-start sm:xl lg:px-5 lg:mt-10 ">
         <div className="rounded-full w-16 h-16 flex items-center justify-start">
@@ -29,7 +29,7 @@ const TracksBodyCard: React.FC<TracksBodyCardProps> = ({
         </div>
         <div className={`flex flex-col `}>
           <p
-            className={`lg:text-4xl text-3xl xl:mt-4 mt-2 ${cabinetExtraBold.className} lg:w-[400px] pb-6`}
+            className={`lg:text-4xl text-2xl xl:mt-4 mt-2 ${cabinetExtraBold.className} lg:w-[400px]`}
           >
             {title}
           </p>

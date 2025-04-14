@@ -20,7 +20,7 @@ const TracksHeading = ({
       onClick={onClick}
     >
       <div>{svg}</div>
-      <div className="lg:block md:block hidden  ">{title}</div>
+      <div className="lg:block hidden  ">{title}</div>
     </div>
   );
 };
