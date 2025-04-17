@@ -19,7 +19,7 @@ export default function TrackWinner(): ReactElement {
 
         <div className="flex flex-col items-start gap-1 lg:gap-2 px-6">
           <p
-            className={`${cabinetRegular.className} text-white text-xs sm:text-xs md:text-lg lg:text-lg tracking-wide w-full`}
+            className={`${cabinetRegular.className} text-white text-xs sm:text-xs md:text-xl lg:text-2xl tracking-wide w-full`}
           >
             New Track Added !
           </p>
@@ -27,7 +27,7 @@ export default function TrackWinner(): ReactElement {
             Rs. 15,000
           </p>
           <p
-            className={`${cabinetRegular.className} text-white text-xs sm:text-xs md:text-lg lg:text-lg italic tracking-wide w-full`}
+            className={`${cabinetRegular.className} text-white text-xs sm:text-xs md:text-xl lg:text-2xl italic tracking-wide w-full`}
           >
             per track
           </p>
