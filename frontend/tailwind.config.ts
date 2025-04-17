@@ -19,6 +19,9 @@ const config: Config = {
         magnolia: "#FCF7FF",
         green: "#004F2D",
         red: "#c70017",
+        statpurp:"#291954",
+        cardviolet:"#241A4A4D",
+        cardgrape:"#6633CC2B",
         orange:"#F66218",
       },
       gradientColorStopPositions: {
