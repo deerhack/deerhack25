@@ -18,7 +18,7 @@ export default function BenefitsPage() {
       <div className={`${cabinetExtraBold.className}  headings`}>
         Benefits of Participating
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center mx-4">
         <BenefitsCards />
       </div>
       <Image

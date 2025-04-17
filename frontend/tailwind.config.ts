@@ -22,6 +22,7 @@ const config: Config = {
         statpurp:"#291954",
         cardviolet:"#241A4A4D",
         cardgrape:"#6633CC2B",
+        orange:"#F66218",
       },
       gradientColorStopPositions: {
         3: "3%",
