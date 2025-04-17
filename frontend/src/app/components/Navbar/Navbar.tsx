@@ -68,7 +68,7 @@ const Navbar = () => {
   return (
     <div className="w-full flex justify-center">
       <header
-        className={`fixed ${isMenuOpen ? "inset-0 bg-[#110C24] z-50" : "bg-[#110C24A6] w-[95%] mt-7 rounded-xl"} isolate z-10 shadow-lg backdrop-blur-sm`}
+        className={`fixed ${isMenuOpen ? "inset-0 bg-[#110C24] z-50" : "bg-[#110C24A6] w-[95%] mt-7 rounded-xl"} isolate z-50 shadow-lg backdrop-blur-sm`}
       >
         <nav className="flex flex-col lg:flex-row lg:items-center lg:justify-between lg:h-[6rem] py-4 px-20 lg:px-20">
           {/* Top bar with logo and hamburger */}
