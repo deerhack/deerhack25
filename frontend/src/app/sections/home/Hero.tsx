@@ -27,7 +27,7 @@ const Hero = () => {
           style={{ height: "44px", width: "312px" }}
         ></div> */}
          <Link
-          href="https://discord.gg/2pVf97qmzd"
+          href="https://dorahacks.io/org/deerhack"
           className="w-fit mx-auto"
           target="_blank"
         >
@@ -39,18 +39,13 @@ const Hero = () => {
           </div>
         </Link>
 
-        <Link
-          href="https://discord.gg/2pVf97qmzd"
-          className="w-fit mx-auto"
-          target="_blank"
-        >
+        
           <div className="flex flex-row w-[182px] h-[47px] lg:w-[256px] lg:h-[67px]  md:w-[280px] md:h-[60px] justify-center items-center gap-2 p-4 border-4 border-grape  rounded-xl text-white mx-auto mt-7 hover:bg-grape">
             <DiscordHero />
             <p className={`text-white ${cabinetBold.className} text-bold text-xs md:text-xl lg:text-xl `}>
               Join Our Discord!
             </p>
           </div>
-        </Link> 
       </div>
       </div>
     
