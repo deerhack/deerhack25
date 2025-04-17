@@ -3,7 +3,7 @@ import CodeSVG from "@/app/assets/icons/Code";
 import CollegeSVG from "@/app/assets/icons/College";
 const AboutTheEventCards = () => {
   return (
-    <div className="flex flex-wrap gap-5 justify-center">
+    <div className="flex flex-wrap justify-center">
       <AboutCard
         svg={CollegeSVG({ height: 30, width: 30 })}
         title="Deerwalk Institute of Technology"
@@ -11,8 +11,8 @@ const AboutTheEventCards = () => {
       />
       <AboutCard
         svg={CodeSVG({ height: 30, width: 30 })}
-        title="DeerHack 2024"
-        description="DeerHack 2024 is a 48-hour hackathon where developers, designers, students, entrepreneurs, educators, and mentors work together to build ideas that solve real-world complications. DeerHack provides an opportunity for individuals to sharpen their teamwork, communication, leadership skills, and networking in a risk-free and comfortable environment."
+        title="DeerHack 2025"
+        description="DeerHack 2025 is a 48-hour hackathon where developers, designers, students, entrepreneurs, educators, and mentors work together to build ideas that solve real-world complications. DeerHack provides an opportunity for individuals to sharpen their teamwork, communication, leadership skills, and networking in a risk-free and comfortable environment."
       />
     </div>
   );
