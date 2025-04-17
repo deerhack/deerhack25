@@ -31,6 +31,10 @@
     @apply bg-gradient-to-l from-[#F5C144] from-0% to-[#6633CC] to-100% bg-clip-text text-transparent;
   }
 
+  .primary-aboutpage-background{
+    background: linear-gradient(180deg, #6633cc -15.9%, #f5c144 72.56%);
+  }
+
   .text-primary-gradient-color {
     @apply bg-gradient-to-r from-primary from-1% to-secondary bg-clip-text text-transparent;
   }
@@ -53,6 +57,11 @@
 
   .no-scrollbar::-webkit-scrollbar {
     display: none;
+  }
+  .text-heropage-gradient{
+    @apply bg-gradient-to-br from-[#6633CC] from-[-15.9%] to-[#F5C144] to-[72.56%] bg-clip-text text-transparent;
+   
+
   }
 
   .headings {
