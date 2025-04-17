@@ -156,9 +156,9 @@ const Navbar = () => {
                   Organizers
                 </Link>
 
-                <Link href="/legacy" className="hover:text-secondary text-2xl">
+                {/* <Link href="/legacy" className="hover:text-secondary text-2xl">
                   Legacy
-                </Link>
+                </Link> */}
 
                 <Link href="/winners" className="hover:text-secondary text-2xl">
                   Winners
@@ -225,9 +225,9 @@ const Navbar = () => {
                 Organizers
               </Link>
 
-              <Link href="/legacy" className={`hover:text-secondary text-base ${cabinetBold.className}`}>
+              {/* <Link href="/legacy" className={`hover:text-secondary text-base ${cabinetBold.className}`}>
                 Legacy
-              </Link>
+              </Link> */}
 
               <Link href="/winners" className={`hover:text-secondary text-base ${cabinetBold.className}`}>
                 Winners
