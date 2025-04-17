@@ -10,6 +10,26 @@
   .primary-gradient-background {
     background: linear-gradient(140.3deg, #6633cc -15.9%, #f5c144 72.56%);
   }
+  
+  .new-gradient-background {
+    background: linear-gradient(288.92deg, rgba(23, 16, 46, 0) 5.97%, rgba(74, 51, 148, 0.44) 115.22%),
+    linear-gradient(0deg, rgba(36, 26, 74, 0.15), rgba(36, 26, 74, 0.15));
+    
+  }
+
+  .secondary-gradient-background {
+    background: linear-gradient(468.92deg, rgba(23, 16, 46, 0) 5.97%, rgba(74, 51, 148, 0.44) 115.22%),
+    linear-gradient(0deg, rgba(36, 26, 74, 0.15), rgba(36, 26, 74, 0.15));    
+  }
+
+  .primary-border-background{
+    background: #110C24;
+ 
+  }
+
+  .text-main-title {
+    @apply bg-gradient-to-l from-[#F5C144] from-0% to-[#6633CC] to-100% bg-clip-text text-transparent;
+  }
 
   .primary-aboutpage-background{
     background: linear-gradient(180deg, #6633cc -15.9%, #f5c144 72.56%);
@@ -45,6 +65,6 @@
   }
 
   .headings {
-    @apply text-center text-3xl lg:text-6xl text-primary-gradient-color w-fit mx-auto px-4 md:px-0;
+    @apply text-center text-3xl lg:text-6xl text-main-title w-fit mx-auto px-4 md:px-0;
   }
 }
