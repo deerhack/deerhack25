@@ -38,6 +38,11 @@
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
+  .text-heropage-gradient{
+    @apply bg-gradient-to-br from-[#6633CC] from-[-15.9%] to-[#F5C144] to-[72.56%] bg-clip-text text-transparent;
+   
+
+  }
 
   .headings {
     @apply text-center text-3xl lg:text-6xl text-primary-gradient-color w-fit mx-auto px-4 md:px-0;
