@@ -16,7 +16,7 @@ export default function ExpectationPage(): ReactElement {
         className="absolute left-3 hidden xl:block"
       />
       <div className={`${cabinetExtraBold.className} headings px-2 md:px-0`}>
-        What Else Can You Expect at DeerHack?
+        What Else Can You Expect at<br></br> DeerHack?
       </div>
       <ExpectationCards />
       {/* <div className="flex lg:flex-row flex-col justify-around w-[90vw] lg:w-[80vw] lg:max-w-[60vw] mx-auto mt-10 items-center lg:items-start gap-5">

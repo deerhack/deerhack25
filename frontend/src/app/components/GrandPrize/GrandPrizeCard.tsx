@@ -1,32 +1,34 @@
-import { ReactElement } from "react";
-import Trophy from "@/app/assets/images/trophy";
-import {
-  satoshiRegular,
-  cabinetBold,
-  cabinetBlack,
-  cabinetExtraBold,
-} from "@/app/utils/fonts";
+import type { ReactElement } from "react"
+import Trophy from "@/app/assets/images/trophy"
+import Leaf from "@/app/assets/images/Leaf"
+import { satoshiRegular, cabinetBlack, cabinetExtraBold } from "@/app/utils/fonts"
 
 export default function GrandPrizeCard(): ReactElement {
   return (
-    <div
-      className={`flex flex-col justify-evenly grow h-[27rem] sm:h-72 md:h-72 lg:h-[25rem] w-full lg:w-[22rem] primary-gradient-background rounded-2xl`}
-    >
-      <div className="flex flex-col justify-center text-center gap-4">
-        <div className="flex justify-center">
-          <Trophy height={120} width={120} />
+    <div className="flex flex-col justify-evenly grow lg:h-[43.448rem] h-[29.448rem] sm:h-[29.448rem] md:h-[32.448rem] rounded-[2rem] primary-aboutpage-background w-[19.966rem] sm:w-[19.966rem] md:w-[23.966rem] lg:w-[29.348rem]">
+      <div className="flex flex-col text-left ml-[2rem]">
+        <div className="flex">
+          <Trophy height={160} width={160} />
         </div>
         <p
-          className={`${cabinetExtraBold.className} font-bold  text-2xl sm:text-xl lg:text-3xl`}
+          className={`${cabinetExtraBold.className} font-extrabold text-3xl sm:text-3xl md:text-4xl lg:text-6xl text-[#110C24]`}
         >
           Grand Prize
         </p>
       </div>
+
       <p
-        className={`${cabinetBlack.className} text-5xl sm:text-4xl lg:text-5xl font-extrabold text-center`}
+        className={`${cabinetBlack.className} text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-left ml-10 mt-28 relative`}
       >
-        Rs. 50,000
+        Rs.
+        <br /> 50,000
+        <div className={`${satoshiRegular.className} text-sm sm:text-sm md:text-lg lg:text-2xl italic text-left`}>
+          to overall winner
+        </div>
+        <div className="absolute bottom-[-6rem] right-0">
+          <Leaf height={300} width={300} />
+        </div>
       </p>
     </div>
-  );
+  )
 }

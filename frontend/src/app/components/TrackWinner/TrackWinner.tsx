@@ -1,39 +1,38 @@
-import { ReactElement } from "react";
-import Confetti from "@/app/assets/images/confetti";
-import { cabinetBlack, cabinetBold } from "@/app/utils/fonts";
+import type { ReactElement } from "react"
+import Confetti from "@/app/assets/images/confetti"
+import { cabinetBlack, cabinetBold, cabinetRegular } from "@/app/utils/fonts"
 
 export default function TrackWinner(): ReactElement {
   return (
-    <div
-      className={`primary-gradient-background w-full sm:w-64 lg:w-[22rem] p-[2px] rounded-2xl`}
-    >
-      <div
-        className={`bg-violet flex flex-col h-full w-full rounded-[0.9rem] justify-start gap-10 py-12`}
-      >
+    <div className="primary-gradient-background w-[19.985rem] sm:w-[19.985rem] md:w-[23.985rem] lg:w-[26.313rem] h-[18.369rem] sm:h-[18.369rem] md:h-[18.369rem] lg:h-[29.063rem] p-[2px] rounded-[2rem]">
+      <div className="bg-[#110C24] flex flex-col h-full w-full rounded-[2rem] justify-between py-8">
         <div className="flex justify-center gap-4">
-          <Confetti height={50} width={50} />
-          <div className="flex">
+          <Confetti height={60} width={60} />
+          <div className="flex p-0">
             <p
-              className={`${cabinetBold.className} text-primary-gradient-color font-extrabold m-auto text-2xl sm:text-lg lg:text-2xl`}
+              className={`${cabinetBold.className} text-primary-gradient-color font-extrabold text-2xl sm:text-2xl md:text-2xl lg:text-[2.875rem] relative top-[1.3rem]`}
             >
               Track Winner
             </p>
           </div>
         </div>
-        <div className="flex flex-col lg:gap-2">
+
+        <div className="flex flex-col items-start gap-1 lg:gap-2 px-6">
           <p
-            className={`${cabinetBlack.className} text-center text-5xl sm:text-4xl lg:text-5xl text-white`}
+            className={`${cabinetRegular.className} text-white text-xs sm:text-xs md:text-xl lg:text-2xl tracking-wide w-full`}
           >
+            New Track Added !
+          </p>
+          <p className={`${cabinetBlack.className} text-4xl sm:text-4xl md:text-5xl lg:text-7xl text-[#F5C144]`}>
             Rs. 15,000
           </p>
-
           <p
-            className={`${cabinetBold.className} text-right mr-4 text-white text-[0.6rem] lg:text-sm italic w-5/6`}
+            className={`${cabinetRegular.className} text-white text-xs sm:text-xs md:text-xl lg:text-2xl italic tracking-wide w-full`}
           >
-            for each track
+            per track
           </p>
         </div>
       </div>
     </div>
-  );
+  )
 }
