@@ -68,7 +68,7 @@ const Navbar = () => {
   return (
     <div className="w-full flex justify-center">
       <header
-        className={`fixed ${isMenuOpen ? "inset-0 bg-[#110C24] z-50" : "bg-[#110C24A6] w-[95%] mt-7 rounded-xl"} isolate z-10 shadow-lg backdrop-blur-sm`}
+        className={`fixed ${isMenuOpen ? "inset-0 bg-[#110C24] z-50" : "bg-[#110C24A6] w-[95%] mt-7 rounded-xl"} isolate z-50 shadow-lg backdrop-blur-sm`}
       >
         <nav className="flex flex-col lg:flex-row lg:items-center lg:justify-between lg:h-[6rem] py-4 px-20 lg:px-20">
           {/* Top bar with logo and hamburger */}
@@ -106,12 +106,12 @@ const Navbar = () => {
               {/* Navigation Links */}
               <div className={`flex flex-col items-start space-y-6 ${cabinetBold.className} text-magnolia mb-20`}>
                 <Link href="/schedule" className="hover:text-secondary text-2xl">
-                  Schedule
+                  {/* Schedule */}
                 </Link>
 
                 <div className="relative text-left" ref={resourceRef}>
                   <span className="hover:text-secondary cursor-pointer block text-2xl" onClick={handleResourceClick}>
-                    Resources
+                    {/* Resources */}
                   </span>
 
                   {isResourceOpen && (
@@ -153,7 +153,7 @@ const Navbar = () => {
                 </div>
 
                 <Link href="/organizers" className="hover:text-secondary text-2xl">
-                  Organizers
+                  {/* Organizers */}
                 </Link>
 
                 {/* <Link href="/legacy" className="hover:text-secondary text-2xl">
@@ -161,7 +161,7 @@ const Navbar = () => {
                 </Link> */}
 
                 <Link href="/winners" className="hover:text-secondary text-2xl">
-                  Winners
+                  {/* Winners */}
                 </Link>
               </div>
 
@@ -182,7 +182,7 @@ const Navbar = () => {
           <div className="hidden lg:flex lg:flex-row lg:items-center lg:gap-[7.5rem]">
             <div className="flex lg:flex-row lg:items-center h-full lg:gap-8 text-magnolia">
               <Link href="/schedule" className={`hover:text-secondary text-base ${cabinetBold.className}`}>
-                Schedule
+                {/* Schedule */}
               </Link>
 
               <div className="relative" ref={resourceRef}>
@@ -190,7 +190,7 @@ const Navbar = () => {
                   className={`hover:text-secondary cursor-pointer block text-base ${cabinetBold.className}`}
                   onClick={handleResourceClick}
                 >
-                  Resources
+                  {/* Resources */}
                 </span>
 
                 {isResourceOpen && (
@@ -222,7 +222,7 @@ const Navbar = () => {
               </div>
 
               <Link href="/organizers" className={`hover:text-secondary text-base ${cabinetBold.className}`}>
-                Organizers
+                {/* Organizers */}
               </Link>
 
               {/* <Link href="/legacy" className={`hover:text-secondary text-base ${cabinetBold.className}`}>
@@ -230,7 +230,7 @@ const Navbar = () => {
               </Link> */}
 
               <Link href="/winners" className={`hover:text-secondary text-base ${cabinetBold.className}`}>
-                Winners
+                {/* Winners */}
               </Link>
             </div>
 
