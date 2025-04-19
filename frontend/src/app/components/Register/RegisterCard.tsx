@@ -24,7 +24,7 @@ export default function RegisterCard(): ReactElement {
             </p>
           </div>
           <Link
-            href="https://deerhack24.devfolio.co"
+            href="https://dorahacks.io/hackathon/deerhack25/detail"
             target="_blank"
             className="lg:ml-20"
           >
