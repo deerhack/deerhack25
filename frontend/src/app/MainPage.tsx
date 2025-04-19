@@ -27,11 +27,10 @@ export default function Home() {
       <ExpectationsPage />
       <DeerhackStatsPage />
       <ImageCarouselPage />
-      <ExperiencePage />
-      <Judges />
-      <Mentors />
+      {/* <Judges /> */}
+      {/* <Mentors /> */}
       <FAQ />
-      <SponsorPage />
+      {/* <SponsorPage /> */}
       <RegisterPage />
       <Footer />
     </>

@@ -16,11 +16,11 @@ const TracksHeading = ({
 }: TracksHeadingProps) => {
   return (
     <div
-      className={`flex flex-row flex-nowrap gap-4 whitespace-nowrap items-center cursor-pointer p-3 lg:text-lg text-base ${cabinetBold.className}  ${headStyling} rounded-md`}
+      className={` h-fit flex flex-row flex-nowrap gap-2 whitespace-nowrap items-center cursor-pointer p-3 lg:text-lg text-base ${cabinetBold.className}  ${headStyling} rounded-tl-lg rounded-tr-lg `}
       onClick={onClick}
     >
       <div>{svg}</div>
-      <div>{title}</div>
+      <div className="lg:block hidden  ">{title}</div>
     </div>
   );
 };
