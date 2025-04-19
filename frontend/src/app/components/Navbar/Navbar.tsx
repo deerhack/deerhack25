@@ -70,7 +70,7 @@ const Navbar = () => {
       <header
         className={`fixed ${isMenuOpen ? "inset-0 bg-[#110C24] z-50" : "bg-[#110C24A6] w-[95%] mt-7 rounded-xl"} isolate z-50 shadow-lg backdrop-blur-sm`}
       >
-        <nav className="flex flex-col lg:flex-row lg:items-center lg:justify-between lg:h-[6rem] py-4 px-20 lg:px-20">
+        <nav className="flex flex-col lg:flex-row lg:items-center lg:justify-between lg:h-[6rem] py-4 px-5 lg:px-20">
           {/* Top bar with logo and hamburger */}
           <div className="flex justify-between items-center w-full lg:w-auto lg:gap-[7.5rem]">
             <a href="/" className="flex-shrink-0 flex items-center">
@@ -167,11 +167,11 @@ const Navbar = () => {
 
               {/* Register Button */}
               <div className="flex justify-start mt-6">
-                <Link href="https://deerhack24.devfolio.co" target="_blank">
+                <Link href="/pre-register" target="_blank">
                   <button
-                    className={`${satoshiBlack.className} font-[20px] bg-secondary text-dark-purple text-xl p-3 rounded bg-opacity-90 hover:bg-opacity-100 transition duration-300 ease-in-out w-[12rem]`}
+                    className={`${satoshiBlack.className} font-[20px] bg-secondary text-dark-purple text-xl p-3 rounded bg-opacity-90 hover:bg-opacity-100 transition duration-300 ease-in-out w-[13rem]`}
                   >
-                    Register Now
+                    Pre-Register Now
                   </button>
                 </Link>
               </div>
@@ -235,11 +235,11 @@ const Navbar = () => {
             </div>
 
             <div>
-              <Link href="https://deerhack24.devfolio.co" target="_blank">
+              <Link href="/pre-register" target="_blank">
                 <button
-                  className={`${satoshiBlack.className} font-[20px] bg-secondary text-dark-purple text-xl p-3 rounded bg-opacity-90 hover:bg-opacity-100 transition duration-300 ease-in-out w-[12rem]`}
+                  className={`${satoshiBlack.className} font-[20px] bg-secondary text-dark-purple text-xl p-3 rounded bg-opacity-90 hover:bg-opacity-100 transition duration-300 ease-in-out w-[13rem]`}
                 >
-                  Register Now
+                  Pre-Register Now
                 </button>
               </Link>
             </div>
