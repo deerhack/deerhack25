@@ -27,6 +27,7 @@ export default function Home() {
       <ExpectationsPage />
       <DeerhackStatsPage />
       <ImageCarouselPage />
+      <ExperiencePage />
       {/* <Judges /> */}
       {/* <Mentors /> */}
       <FAQ />
