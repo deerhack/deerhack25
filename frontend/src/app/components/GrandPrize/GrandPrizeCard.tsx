@@ -1,6 +1,6 @@
 import type { ReactElement } from "react"
 import Trophy from "@/app/assets/images/trophy"
-import Leaf from "@/app/assets/images/Leaf"
+import Leaf from "@/app/assets/images/Leaf1"
 import { satoshiRegular, cabinetBlack, cabinetExtraBold } from "@/app/utils/fonts"
 
 export default function GrandPrizeCard(): ReactElement {

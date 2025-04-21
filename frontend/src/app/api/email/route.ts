@@ -34,7 +34,7 @@ export async function POST(req: Request) {
 
 async function insertToDb(email: string): Promise<boolean> {
   const { error } = await supabase
-    .from("participants")
+    .from("Registrations")
     .insert([{ email: email }]);
   if (error) return false;
   return true;
@@ -42,7 +42,7 @@ async function insertToDb(email: string): Promise<boolean> {
 
 async function checkAlready(email: string): Promise<boolean> {
   const { data, error } = await supabase
-    .from("participants")
+    .from("Registrations")
     .select()
     .eq("email", email);
   if (error || data?.length <= 0) {
