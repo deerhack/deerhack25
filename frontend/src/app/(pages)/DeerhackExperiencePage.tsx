@@ -42,7 +42,7 @@ export default function ExperiencePage() {
   }, [activeCard])
 
   return (
-    <div className="bg-dark-purple flex flex-col py-20 overflow-hidden relative gap-10 mb-0 md:mb-36 mt-0 md:mt-36">
+    <div className="bg-dark-purple flex flex-col py-20 overflow-hidden relative">
         
         <Image
           src={leaf_right_deerhack_2025}
@@ -52,7 +52,7 @@ export default function ExperiencePage() {
           className="absolute p-0 m-0 right-[-30px]  z-10 hidden xl:block -rotate-12"
         />
 
-      <div className={`${cabinetExtraBold.className} headings w-[17.875rem] md:w-[45rem] md:h-[6rem] text-[1.875rem] md:text-[3.5rem]`}>
+      <div className={`${cabinetExtraBold.className} headings w-[17.875rem] md:w-[45rem] md:h-[6rem] text-[1.875rem] md:text-[3.5rem] mb-[3rem]`}>
         The DeerHack Experience
       </div>
 

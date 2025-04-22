@@ -16,7 +16,7 @@ export default function Footer(): ReactElement {
   return (
     <div
       key="footer_container"
-      className="relative flex flex-col flex-grow w-full bg-violet "
+      className="relative flex flex-col flex-grow w-full bg-violet mt-[280px]"
     >
       <div className="relative flex flex-grow flex-col w-[85%] mx-auto mt-16">
         <div className="flex md:items-center md:flex-row justify-between gap-10 mb-10 sm:flex-col flex-col">
