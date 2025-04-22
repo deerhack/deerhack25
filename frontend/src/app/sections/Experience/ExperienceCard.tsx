@@ -25,7 +25,7 @@ export default function ExperienceCard({ activeIndex = 0 }) {
     {
       id: 2,
       description:
-        "Nice learning experience. Workshops were mind refreshing. Organizers and volunteers were super friendly. Would love to join more events organized by them.",
+        "Nice learning experience. Workshops were mind refreshing. Had fun communicating with participants and mentors, was a great learning and networking experience.",
       bottomText: "Volunteer",
       finBottomText: "DeerHack 2024",
       svg: <VolunteerReviewSVG />,
