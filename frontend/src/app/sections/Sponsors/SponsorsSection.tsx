@@ -16,7 +16,7 @@ export default function SponsorsSection() {
       </div>
 
       <div>
-        <PlatinumSponsor />
+        {/* <PlatinumSponsor /> */}
       </div>
       {sponsors.map((sponsorType) => (
         <div

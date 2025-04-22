@@ -8,7 +8,7 @@ import NewInterpersonalDevSVG from "@/app/assets/images/NewInterpersonalDev";
 
 export default function BenefitsCards() {
   return (
-    <div className="flex flex-col justify-center gap-5 mx-10 mt-10 w-full items-center">
+    <div className="flex flex-col justify-center gap-5 mx-10 w-full items-center">
       <div className="flex w-full h-full flex-col gap-5 lg:flex-row justify-center items-center">
         <CardDark
           title="Build Powerful Network"
