@@ -8,7 +8,6 @@ import BlockchainSVG from "@/app/assets/icons/Blockchain";
 import OpenInnovationSVG from "@/app/assets/icons/OpenInnovation";
 import EdTechSVG from "@/app/assets/icons/EdTech";
 import TracksBodyCard from "@/app/components/Tracks/TracksBodyCard";
-import ArrowSVG from "@/app/assets/icons/ArrowSVG";
 import { useRef } from "react";
 import DataScienceNew from "@/app/assets/icons/DataScienceNew";
 import BlockchainNew from "@/app/assets/icons/BlockChainNew";
@@ -79,7 +78,7 @@ const TracksCard = () => {
           : "bg-violet hover:gradient-bg hover:text-magnolia",
       bodyStyling: "gradient-bg text-magnolia",
       description:
-        "Embrace Decentralization with DeerHack. Explore smart contracts, secure transactions, and reshape industries at the forefront of innovation.",
+        "Reimagining education at DeerHack through smart, interactive, and personalized tech",
     },
     
   ];
@@ -90,18 +89,11 @@ const TracksCard = () => {
 
   const containerRef = useRef<HTMLDivElement>(null);
 
-  const handleArrowClick = () => {
-    console.log(containerRef.current);
-    if (containerRef.current) {
-      containerRef.current.scrollLeft += 250;
-    }
-  };
-
   return (
-    <div className="lg:w-[67.25rem]  mx-5 lg:mx-auto">
+    <div className="lg:w-[69.25rem]  mx-5 lg:mx-auto">
      
       <div
-        className={`flex  lg:justify-center items-start text-magnolia  lg:gap-3 md:gap-6 gap-3 overflow-x-auto  no-scrollbar justify-evenly`}
+        className={`flex  lg:justify-center items-start text-magnolia  lg:gap-3 md:gap-6 gap-3 overflow-x-auto  no-scrollbar justify-evenly px-3`}
         ref={containerRef}
       >
         {trackData.map((track, index) => (

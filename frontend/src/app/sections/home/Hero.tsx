@@ -14,7 +14,7 @@ const Hero = () => {
       id="hero_container"
     >
     {/*Original div --> <div className={` px-10 py-10 lg:py-8 lg:px-14 text-center  rounded-3xl border-2 border-secondary  absolute lg:top-48 lg:w-[427px] lg:h-[447px] w-[304px] h-[319px] top-48 ${styles.muted_color} md:w-[500px] md:h-[500px] md:top-72 `}> */}
-    <div className={` px-10 py-10 lg:py-8 lg:px-14 text-center  rounded-3xl border-2 border-secondary  absolute lg:top-72 lg:w-[427px]  w-[304px]  top-48 ${styles.muted_color} md:w-[500px] h-fit md:top-72 `}>
+    <div className={` px-10 py-10 lg:py-8 lg:px-14 text-center  rounded-3xl border-2 border-secondary  absolute lg:top-60 lg:w-[427px]  w-[304px]  top-48 ${styles.muted_color} md:w-[500px] h-fit md:top-72 `}>
       <p
           className={`  text-2xl md:text-4xl lg:text-3xl font-bold text-center text-heropage-gradient ${cabinetBold.className}`}
         >

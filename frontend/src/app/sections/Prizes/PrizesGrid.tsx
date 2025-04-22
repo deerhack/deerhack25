@@ -19,7 +19,7 @@ export default function PrizesGrid(): ReactElement {
       <div className="flex flex-col gap-5 w-fit justify-center items-center">
         <div className="flex lg:flex-row flex-col h-fit gap-5 md:items-center">
           <TrackWinner />
-          <SwagPrizes svg={<ThumbsUp width={120} height={120} />} />
+          <SwagPrizes svg={<ThumbsUp width={200} height={200} />} />
         </div>
         <div className="">
           <OtherPrizes svg={<GiftBox width={120} height={120} />} />

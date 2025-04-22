@@ -5,7 +5,7 @@ import Image from "next/image";
 import { ReactElement } from "react";
 export default function SponsorPage(): ReactElement {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden py-20">
       <div className="relative">
         <Image
           src={leaf_deerhack2023_right}
@@ -17,7 +17,6 @@ export default function SponsorPage(): ReactElement {
       <div>
         <SponsorsSection />
       </div>
-      <div className="h-40"></div>
     </div>
   );
 }

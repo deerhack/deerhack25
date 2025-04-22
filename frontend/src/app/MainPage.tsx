@@ -31,7 +31,7 @@ export default function Home() {
       {/* <Judges /> */}
       {/* <Mentors /> */}
       <FAQ />
-      {/* <SponsorPage /> */}
+      <SponsorPage />
       <RegisterPage />
       <Footer />
     </>
