@@ -38,7 +38,7 @@ const Hero = () => {
               Pre-Register With DoraHacks
             </p>
           </div> */}
-            <div className="flex flex-row w-[182px] h-[47px] lg:w-[256px] lg:h-[67px]  md:w-[280px] md:h-[60px] justify-center items-center gap-2 p-4 rounded-xl text-black mx-auto mt-7 bg-secondary hover:bg-[#D7A330]">
+            <div className="flex flex-row w-[182px] h-[47px] lg:w-[256px] lg:h-[67px]  md:w-[280px] md:h-[60px] justify-center items-center gap-2 p-4 rounded-xl text-black mx-auto mt-7 hover:bg-[#FACA16] bg-[#FFBF00] transition-ease in out duration-200 transform transition-transform hover:scale-105">
             <p className={`text-black ${satoshiBlack.className} text-bold text-xs md:text-xl lg:text-xl `}>
               Pre-Register Now
             </p>
