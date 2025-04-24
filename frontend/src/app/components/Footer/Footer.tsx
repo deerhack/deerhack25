@@ -16,7 +16,7 @@ export default function Footer(): ReactElement {
   return (
     <div
       key="footer_container"
-      className="relative flex flex-col flex-grow w-full bg-violet "
+      className="relative flex flex-col flex-grow w-full bg-violet mt-[280px]"
     >
       <div className="relative flex flex-grow flex-col w-[85%] mx-auto mt-16">
         <div className="flex md:items-center md:flex-row justify-between gap-10 mb-10 sm:flex-col flex-col">
@@ -46,7 +46,7 @@ export default function Footer(): ReactElement {
                   <span
                     className={`px-2 md:text-[17px] lg:text-[20px] ${cabinetRegular.className}`}
                   >
-                    9847357575/9807250988
+                    9742827007/9741860722
                   </span>
                 </div>
               </Link>
@@ -97,21 +97,21 @@ export default function Footer(): ReactElement {
             <div className="links text-white flex flex-col gap-7 md:gap-9 justify-center md:items-center">
               <Link
                 className={`px-2 text-[16px] ${cabinetRegular.className}`}
-                href="/schedule"
+                href="/"
               >
-                Schedule
+                {/* Schedule */}
               </Link>
               <Link
                 className={`px-2 text-[16px] ${cabinetRegular.className}`}
-                href="/organizers"
+                href="/"
               >
-                Organizers
+                {/* Organizers */}
               </Link>
               <Link
                 className={`px-2 text-[16px] ${cabinetRegular.className}`}
-                href="/winners"
+                href="/"
               >
-                Winners
+                {/* Winners */}
               </Link>
             </div>
           </div>
@@ -128,14 +128,14 @@ export default function Footer(): ReactElement {
               Venue: Deerwalk Complex
             </p>
             <p className={`text-[16px] ${cabinetRegular.className}`}>
-              Date: 10th-12th May, 2024
+              Date: 6th-8th Jun, 2025
             </p>
           </div>
         </div>
         <span
           className={`text-white flex text-xs/[24px] md:text-sm/[24px] font-[500] ${cabinetRegular.className}`}
         >
-          All Rights Reserved © DWIT Software Club 2024
+          All Rights Reserved © DWIT Software Club 2025
         </span>
       </div>
       <div className="w-full">

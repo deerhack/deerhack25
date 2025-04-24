@@ -1,11 +1,7 @@
 "use client";
 
-import Register from "../sections/Register/RegisterSection";
-import RegisterCard from "@/app/components/Register/RegisterCard";
-import leaf_prizes_right from "@/app/assets/images/leaf_prizes_right.svg";
 import { cabinetExtraBold, cabinetRegular } from "../utils/fonts";
 import Navbar from "../components/Navbar/Navbar";
-import Image from "next/image";
 import styles from "./styles.module.css";
 import { useState, useEffect } from "react";
 

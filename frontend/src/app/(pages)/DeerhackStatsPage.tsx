@@ -16,8 +16,8 @@ export default function DeerhackStatsPage(): ReactElement {
           className="absolute right-3 top-52 hidden xl:block"
         />
       </div>
-      <div className={`${cabinetExtraBold.className} headings`}>
-        DeerHack 2023
+      <div className={`${cabinetExtraBold.className} headings mb-[3rem]`}>
+        DeerHack Till Now
       </div>
       <div className="flex justify-center mt-10">
         <DeerHackStats />
