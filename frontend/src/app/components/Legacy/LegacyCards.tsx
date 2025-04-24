@@ -26,7 +26,7 @@ const LegacyCard: React.FC<LegacyCardDetails> = ({
 
         <div className="border-[3px] border-secondary rounded-2xl lg:w-[380px] lg:h-[390px] w-[300px] h-[238px] mt-5  lg:py-11 lg:px-6 px-3 py-5 legacy-gradient shadow-sm shadow-secondary ">
         
-        <div className="flex justify-between mb-4">
+        <div className="flex justify-between mb-4 ">
             <div >
                 <h2 className={`lg:text-2xl text-sm headings ${cabinetExtraBold.className} ml-[0px] text-left`}>Event Leads</h2>
                 <p className="text-sm lg:text-lg">{eventLead}</p>
@@ -38,7 +38,7 @@ const LegacyCard: React.FC<LegacyCardDetails> = ({
             </div>
         </div>
         <div className="mb-4">
-            <h2 className={`lg:text-2xl  text-sm headings ${cabinetExtraBold.className} ml-[0px]`}>Applications</h2>
+            <h2 className={`lg:text-2xl  text-sm headings  ${cabinetExtraBold.className} ml-[0px]`}>Applications</h2>
             <p className="text-sm lg:text-lg">{application}</p>
         </div>
         <div>
