@@ -35,6 +35,10 @@
     background: linear-gradient(180deg, #6633cc -15.9%, #f5c144 72.56%);
   }
 
+  .exp-gradient-background {
+  background: linear-gradient(270deg, #F5C144 0%, #6633CC 100%);
+  }
+
   .text-primary-gradient-color {
     @apply bg-gradient-to-r from-primary from-1% to-secondary bg-clip-text text-transparent;
   }
@@ -45,6 +49,11 @@
 
   .text-secondary-gradient-color-reverse {
     @apply bg-gradient-to-tl from-secondary from-1% to-primary bg-clip-text text-transparent;
+  }
+  .card-background-gradient{
+    background: linear-gradient(288.92deg, rgba(74, 51, 148, 0.44) 5.97%, rgba(23, 16, 46, 0) 115.22%),
+  linear-gradient(270deg, rgba(36, 26, 74, 0.15) 0%, rgba(36, 26, 74, 0) 95.92%);
+
   }
   /* .text-third-gradient-color {
     @apply bg-gradient-to-br from-[#F5C144] from-0% to-[#6633CC] text-transparent bg-clip-text;

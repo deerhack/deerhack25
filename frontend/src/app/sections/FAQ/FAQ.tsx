@@ -35,7 +35,7 @@ const Faq = () => {
         {
           question: "How long will DeerHack last?",
           answer:
-            "While DeerHack is a 48-Hour program, DeerHack also has a lot of other fun, team-building events lined up for the participants which will take place from 10th to 12th May 2023 making DeerHack a 3-Day event collectively.",
+            "While DeerHack is a 48-Hour program, DeerHack also has a lot of other fun, team-building events lined up for the participants which will take place from 6th to 8th Jun 2025 making DeerHack a 3-Day event collectively.",
         },
         {
           question: "Who can Participate in DeerHack?",
@@ -143,7 +143,7 @@ const Faq = () => {
   };
 
   return (
-    <div key="faqContainer" className="bg-dark-purple md:w-[70%] w-[80%] pb-16">
+    <div key="faqContainer" className="bg-dark-purple md:w-[70%] w-[80%]">
       <div className=" box-border flex flex-col items-end sm:items-center md:items-start md:flex-row nowrap  w-full justify-between">
         <div className="sm:block md:hidden mb-5" onClick={handleArrowClick}>
           <ArrowSVG />

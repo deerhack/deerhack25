@@ -15,9 +15,8 @@ if (mode == "dev") {
 }
 
 const supaBaseConfig = {
-  projectUrl: "https://fpcjfskxjhrksbwelapd.supabase.co",
-  supabaseKey:
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZwY2pmc2t4amhya3Nid2VsYXBkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDkyMzA0MzAsImV4cCI6MjAyNDgwNjQzMH0.nMCu3H6u8XHKIe_bgNJynusqcvC6pyZoI1F34RDbNUw",
+  projectUrl: "https://fifnzxukjdzyymlygked.supabase.co/",
+  supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpZm56eHVramR6eXltbHlna2VkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDEzNjE1MzMsImV4cCI6MjA1NjkzNzUzM30.fNT-4olQKZaCy__Rn4EiyCFdLsy6Emj7MMoMqnodYqY",
 };
 
 console.info(`Backend URL: ${BACKEND_URL} | Server URL: ${SERVER_URL}`);
