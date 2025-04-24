@@ -23,7 +23,7 @@ const TracksBodyCard: React.FC<TracksBodyCardProps> = ({
     <div
       className={`max-w-[1250px]  min-h-[526px]  sm:max-h-[423px] flex xl:items-center justify-start align-start flex-col xl:flex-row cursor-pointer px-8 lg:pb-44 pb-24 pt-10 text-lg lg:mx-0 ${cabinetBold.className} rounded-2xl bg-grape ${bodyStyling} gap-8 lg:gap-0`}
     >
-      <div className="xl:w-3/5 self-start sm:xl lg:px-5 lg:mt-10 ">
+      <div className="xl:w-3/5 self-start sm:xl lg:px-5 lg:mt-[100px] bg-red ">
         <div className="rounded-full w-16 h-16 flex items-center justify-start">
           {svg}
         </div>
@@ -41,7 +41,7 @@ const TracksBodyCard: React.FC<TracksBodyCardProps> = ({
         </div>
       </div>
 
-      <div className="flex flex-col lg:-ml-20 lg:mt-6 lg:w-[500px]">
+      <div className="flex flex-col lg:-ml-20 lg:mt-[90px] lg:w-[500px]">
       <p className={`text-bold pt-4   lg:pt-6 ${cabinetExtraBold.className}`}>
       WINNER GETS
     </p>
