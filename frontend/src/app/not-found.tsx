@@ -32,7 +32,7 @@ export default function NotFound() {
       <Image
       src={darin_404}
       alt="darin"
-      className="absolute top-[9rem] left-[7.5rem] hidden lg:block"
+      className="absolute top-[9rem] left-[7.5rem]"
       >
 
       </Image>
