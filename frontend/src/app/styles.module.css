@@ -8,6 +8,16 @@
   /* background-color: rgba(17, 12, 36, 0.3); */
 }
 
+@media (min-width: 500) and (max-width: 1400px) {
+  .background_container {
+    background-image: url("./assets/images/new_404_tablet.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+}
+
 @media (max-width: 3000px) {
   .background_container {
     background-image: url("./assets/images/new_404_desktop.svg");
@@ -38,12 +48,3 @@
   }
 } */
 
-@media (min-width: 500) and (max-width: 1366px) {
-  .background_container {
-    background-image: url("./assets/images/new_404_tablet.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-  }
-
-}
