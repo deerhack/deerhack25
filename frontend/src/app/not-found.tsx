@@ -17,7 +17,7 @@ export default function NotFound() {
       className={`${styles.background_container} overflow-hidden`}
     >
       <Navbar/>
-      <div className="absolute w-full top-[21rem] lg:top-[33rem] m-auto flex justify-center items-center">
+      <div className="absolute w-full top-[45vh] md:top-[35vh] lg:top-[70vh] m-auto flex justify-center items-center">
       <div className="sm:flex sm:justify-center sm:items-center">
        <div
         className={`rounded-[0.65rem] w-[20.409rem] md:w-[40.808rem] max-w-[1080px] h-[5.531rem] md:h-[10.705rem]
