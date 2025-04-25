@@ -17,12 +17,12 @@ export default function NotFound() {
       className={`${styles.background_container} overflow-hidden`}
     >
       <Navbar/>
-      <div className="relative top-[20rem]  lg:top-[34rem] lg:left-[12rem] left-[1.5rem]">
+      <div className="absolute w-full top-[21rem] lg:top-[33rem] m-auto flex justify-center items-center">
       <div className="sm:flex sm:justify-center sm:items-center">
        <div
         className={`rounded-[0.65rem] w-[20.409rem] md:w-[40.808rem] max-w-[1080px] h-[5.531rem] md:h-[10.705rem]
            flex flex-col gap-4 justify-center items-center  border-secondary border-2 backdrop-blur-sm px-2 py-6 mx-0
-            `}
+            relative lg:left-[13rem]`}
       >
         <p
           className={`${cabinetExtraBold.className} text-[#F5C144] w-fit text-[1.25rem] md:text-[2.674rem] text-center`}
