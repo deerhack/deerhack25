@@ -7,8 +7,8 @@ const DataScienceNew = ({
 }) => {
   return (
     <svg
-      width="84"
-      height="84"
+    width={width}
+    height={height}
       viewBox="0 0 84 84"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

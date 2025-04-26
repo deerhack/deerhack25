@@ -23,7 +23,7 @@ const TracksCard = () => {
     {
       title: "Interactive Technology",
       svg: <InteractiveTechnologySVG height={24} width={24} />,
-      svgBody: <InteractiveTechnologyNewSVG height={50} width={50} />,
+      svgBody: <InteractiveTechnologyNewSVG height={85} width={84} />,
       headStyling:
         selectedTrack === "Interactive Technology"
           ? "bg-grape text-magnolia active"
@@ -35,7 +35,7 @@ const TracksCard = () => {
     {
       title: "Data Science / Machine Learning",
       svg: <DataScienceSVG height={25} width={25} />,
-      svgBody: <DataScienceNew height={50} width={50} />,
+      svgBody: <DataScienceNew height={85} width={84} />,
       headStyling:
         selectedTrack === "Data Science / Machine Learning"
           ? "bg-purpures text-magnolia active"
@@ -47,7 +47,7 @@ const TracksCard = () => {
     {
       title: "Blockchain",
       svg: <BlockchainSVG height={25} width={25} />,
-      svgBody: <BlockchainNew height={50} width={50} />,
+      svgBody: <BlockchainNew height={85} width={84}/>,
       headStyling:
         selectedTrack === "Blockchain"
           ? "bg-magnolia text-dark-purple active"
@@ -59,7 +59,7 @@ const TracksCard = () => {
     {
       title: "Open Innovation",
       svg: <OpenInnovationSVG height={25} width={25} />,
-      svgBody: <OpenInnovationNew height={50} width={50} />,
+      svgBody: <OpenInnovationNew height={85} width={84} />,
       headStyling:
         selectedTrack === "Open Innovation"
           ? "bg-secondary text-dark-purple active"
@@ -69,9 +69,9 @@ const TracksCard = () => {
         "Transforming Challenges into Opportunities at DeerHack. Be part of the solution, forging a brighter future for all.",
     },
     {
-      title: "Ed-Tech",
+      title: "Ed - Tech",
       svg: <EdTechSVG height={25} width={25} />,
-      svgBody: <EdTechNew height={50} width={50} />,
+      svgBody: <EdTechNew height={85} width={84}/>,
       headStyling:
         selectedTrack === "Ed-Tech"
           ? "gradient-bg text-magnolia active"
