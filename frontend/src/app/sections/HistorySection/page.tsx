@@ -5,6 +5,8 @@ import Deerhack25 from "@/app/assets/icons/Deerhack25";
 import styles from "./styles.module.css";
 import QuotesCard from "@/app/components/Quotes/QuotesCard";
 import WinnerCard from "@/app/components/Winners/WinnersCard";
+import DeerHack23Legacy from "@/app/components/Legacy/DeerHack23Legacy";
+import Winners23SVG from "@/app/assets/images/legacyWinners23SVG";
 const Page = () => {
     return (
       <>
@@ -14,7 +16,9 @@ const Page = () => {
             Deerhack 2023
             
         </h1>
-
+        <DeerHack23Legacy
+            logo={<Winners23SVG width={261.03} height={190}/>}
+        />
 
         {/* Here you will call your components like <QuotesCard/> or <WinnerCard/> */}
 
