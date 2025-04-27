@@ -6,6 +6,7 @@ import LegacyFlower from "../assets/images/LegacyFlower.svg";
 import LegacyLeafLeft from "../assets/images/LegacyLeafLeft.svg";
 import LegacyLeafRight from "../assets/images/LegacyLeafRight.svg";
 import { LegacySection } from "../sections/LegacySection";
+import { HistorySection } from "../sections/HistorySection";
 export default function LegacyPage(){
     return(
         <>
@@ -37,6 +38,9 @@ export default function LegacyPage(){
   className="fixed top-[566.57px] left-[155px]  lg:block opacity-20 z-0"
 />
 
+        </div>
+        <div>
+          <HistorySection/>
         </div>
         <Footer/>
       
