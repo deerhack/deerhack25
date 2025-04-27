@@ -18,6 +18,8 @@ const Page = () => {
         </h1>
         <DeerHack23Legacy
             logo={<Winners23SVG width={261.03} height={190}/>}
+            title="Contrivers"
+            description="DeerHack 2023 Overall Winners"
         />
 
         {/* Here you will call your components like <QuotesCard/> or <WinnerCard/> */}
