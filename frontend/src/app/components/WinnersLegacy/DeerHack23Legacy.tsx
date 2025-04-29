@@ -2,17 +2,25 @@ import React, { ReactElement } from "react";
 import { cabinetBold, cabinetExtraBold, cabinetMedium, satoshiRegular } from "../../utils/fonts";
 import OtherWinners from "./OtherWinners";
 
+interface listContent {
+    id: number;
+    title: string;
+    description: string;
+    svg: ReactElement;
+}
+
 interface LegacyCardDetails {
-    logo:ReactElement;
-    title:string;
-    description:string;
-   
+    logo: ReactElement;
+    title: string;
+    description: string;
+    winnersList: listContent[]; // 🆕 new prop added
 }
 
 const DeerHack23Legacy: React.FC<LegacyCardDetails> = ({
     logo,
     title,
     description,
+    winnersList,
 }) => {
     return (
         <div className="flex flex-col md:flex-row justify-center items-center">
@@ -32,7 +40,8 @@ const DeerHack23Legacy: React.FC<LegacyCardDetails> = ({
                 </div>
             </div>
 
-            <OtherWinners/>
+            {/* Pass the winners list */}
+            <OtherWinners winnersList={winnersList} />
         </div>
     );
 }

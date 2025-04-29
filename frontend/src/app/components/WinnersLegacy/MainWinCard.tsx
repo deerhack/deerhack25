@@ -9,9 +9,9 @@ export default function MainWinCard({
     title: string;
     description: string;
     svg: ReactElement;
-}){
-    return(
-        <div className="flex flex-row  relative top-[2.5rem] md:left-[2rem]">
+}) {
+    return (
+        <div className="flex flex-row relative top-[2.5rem] md:left-[2rem]">
             <div className="w-[6.313rem] h-[6.313rem] absolute left-[1.5rem] top-[1.2rem] hidden lg:block">
                 {svg}
             </div>
