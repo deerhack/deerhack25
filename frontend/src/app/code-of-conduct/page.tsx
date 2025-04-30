@@ -17,8 +17,8 @@ const COD = () => {
       <div className="relative overflow-hidden">
       <Image
           src={code_of_conduct_leaf}
-          height={200}
-          width={200}
+          height={240}
+          width={240}
           alt="leaf"
           className="absolute top-[23rem] scale-110 hidden lg:block"
         />
@@ -27,7 +27,7 @@ const COD = () => {
           height={240}
           width={240}
           alt="leaf"
-          className="absolute top-[42rem] right-0 hidden lg:block"
+          className="absolute top-[48rem] right-0 hidden lg:block"
           style={{ transform: "scaleX(-1)", WebkitTransform: "scaleX(-1)" }}
         />
        <Image
@@ -48,10 +48,10 @@ const COD = () => {
      
         <Image
           src={shortFatLeaf}
-          height={240}
-          width={240}
+          height={200}
+          width={200}
           alt="leaf"
-          className="absolute top-[125rem] left-0 hidden lg:block"
+          className="absolute top-[124rem] left-0 hidden lg:block"
           style={{ transform: "scaleX(-1)" }}
         />
         <Image
@@ -59,7 +59,7 @@ const COD = () => {
           height={80}
           width={80}
           alt="leaf"
-          className="absolute top-[160rem] left-0 hidden lg:block scale-150"
+          className="absolute top-[163rem] left-4 hidden lg:block scale-150"
           // style={{ transform: "scaleX(-1)", WebkitTransform: "scaleX(-1)" }}
         />
         <Image
