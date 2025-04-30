@@ -66,17 +66,17 @@ const Navbar = () => {
   }, [isMenuOpen])
 
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full flex justify-center ">
       <header
-        className={`fixed ${isMenuOpen ? "inset-0 bg-[#110C24] z-50" : "bg-[#110C24A6] w-[95%] mt-7 rounded-xl"} isolate z-50 shadow-lg backdrop-blur-sm`}
+        className={`fixed ${isMenuOpen ? "inset-0 bg-[#110C24] z-50 pt-7 px-[0.6rem]" : "bg-[#110C24A6] w-[95%] mt-7 rounded-xl"} isolate z-50 shadow-lg backdrop-blur-sm`}
       >
         <nav className="flex flex-col lg:flex-row lg:items-center lg:justify-between lg:h-[6rem] py-4 px-5 lg:px-20">
           {/* Top bar with logo and hamburger */}
           <div className="flex justify-between items-center w-full lg:w-auto lg:gap-[7.5rem]">
-            <a href="/" className="flex-shrink-0 flex items-center">
+            <a href="/" className="flex-shrink-0 flex items-center "> 
               <DeerhackLogo width="50" height="50" />
             </a>
-            <button onClick={toggleMenu} className="lg:hidden text-secondary flex items-center justify-center">
+            <button onClick={toggleMenu} className="lg:hidden text-secondary flex items-center justify-center ">
               {isMenuOpen ? (
                 <Image
                   src={crossSVG || "/placeholder.svg"}
@@ -90,14 +90,14 @@ const Navbar = () => {
               )}
             </button>
 
-            <div className="hidden lg:block">
+            <div className="hidden lg:block ">
               <Counter_wrapper />
             </div>
           </div>
 
           {/* Mobile menu content */}
           {isMenuOpen && (
-            <div className="flex flex-col h-[calc(100vh-80px)] justify-start px-4 py-5 lg:hidden">
+            <div className="flex flex-col h-[calc(100vh-80px)] justify-start px-4 py-5 lg:hidden ">
               {/* Counter */}
               <div className="flex justify-start mb-10 mt-16">
                 <Counter_wrapper />
@@ -110,13 +110,13 @@ const Navbar = () => {
                 </Link>
 
                 <div className="relative text-left" ref={resourceRef}>
-                  <span className="hover:text-secondary cursor-pointer block text-2xl" onClick={handleResourceClick}>
+                  <span className="hover:text-secondary cursor-pointer block text-2xl " onClick={handleResourceClick}>
                     {/* Resources */}
                   </span>
 
                   {isResourceOpen && (
-                    <div className="mt-3 ml-4">
-                      <ul className={`${cabinetMedium.className} space-y-3 text-left`}>
+                    <div className="mt-3 ml-4 ">
+                      <ul className={`${cabinetMedium.className} space-y-3 text-left `}>
                         <li>
                           <a
                             href="/resources/selection_criteria.pdf"
@@ -166,7 +166,7 @@ const Navbar = () => {
               </div>
 
               {/* Register Button */}
-              <div className="flex justify-start mt-6">
+              <div className="flex justify-start mt-6 ">
                 <Link href="/pre-register" target="_blank">
                   <button
                     className={`${satoshiBlack.className} font-[20px] bg-secondary text-dark-purple text-xl p-3 rounded bg-opacity-90 hover:bg-opacity-100 transition duration-300 ease-in-out w-[13rem]`}
@@ -179,22 +179,22 @@ const Navbar = () => {
           )}
 
           {/* Desktop menu content */}
-          <div className="hidden lg:flex lg:flex-row lg:items-center lg:gap-[7.5rem]">
-            <div className="flex lg:flex-row lg:items-center h-full lg:gap-8 text-magnolia">
-              <Link href="/schedule" className={`hover:text-secondary text-base ${cabinetBold.className}`}>
+          <div className="hidden lg:flex lg:flex-row lg:items-center lg:gap-[7.5rem] ">
+            <div className="flex lg:flex-row lg:items-center h-full lg:gap-8 text-magnolia ">
+              <Link href="/schedule" className={`hover:text-secondary text-base ${cabinetBold.className} `}>
                 {/* Schedule */}
               </Link>
 
               <div className="relative" ref={resourceRef}>
                 <span
-                  className={`hover:text-secondary cursor-pointer block text-base ${cabinetBold.className}`}
+                  className={`hover:text-secondary cursor-pointer  block text-base ${cabinetBold.className}`}
                   onClick={handleResourceClick}
                 >
                   {/* Resources */}
                 </span>
 
                 {isResourceOpen && (
-                  <div className="fixed bg-violet/50 backdrop-blur-md shadow-lg transition-all ease-in-out duration-500 z-20 text-white rounded-br-xl rounded-bl-xl border-sm top-20 mt-[1rem]">
+                  <div className="fixed bg-violet/50 backdrop-blur-md shadow-lg transition-all ease-in-out duration-500 z-20 text-white rounded-br-xl rounded-bl-xl border-sm top-20 mt-[1rem] ">
                     <ul className={`w-[18.6rem] mt-0.5 text-left list-none ${cabinetMedium.className}`}>
                       <li className="p-5 mb-2">
                         <a href="/judging-criteria" className="hover:text-secondary" target="_blank" rel="noreferrer">
