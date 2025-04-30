@@ -12,7 +12,7 @@ import LinkedInSVG from "@/app/assets/icons/LinkedIn";
 import FooterMobileSVG from "@/app/assets/images/FooterMobileSVG";
 import FooterGrapicSVG from "@/app/assets/images/FooterGrapicSVG";
 
-export default function Footer(): ReactElement {
+export default function   Footer(): ReactElement {
   return (
     <div
       key="footer_container"

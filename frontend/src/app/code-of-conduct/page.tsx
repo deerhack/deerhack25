@@ -7,6 +7,8 @@ import longLeafSVG from "../assets/images/long_leaf.svg";
 import shortFatLeaf from "../assets/images/leaf_deerhack2023_right.svg";
 import shortLeaf from "../assets/images/leaf_prizes_right.svg";
 import veryLongLeaf from "../assets/images/veryLongLeaf.svg";
+import code_of_conduct_leaf from "../assets/images/code_of_conduct_leaf.svg";
+
 
 const COD = () => {
   return (
@@ -14,49 +16,42 @@ const COD = () => {
       <Navbar />
       <div className="relative overflow-hidden">
       <Image
-          src={longLeafSVG}
-          height={50}
-          width={50}
+          src={code_of_conduct_leaf}
+          height={240}
+          width={240}
           alt="leaf"
-          className="absolute top-4 scale-110 hidden lg:block"
+          className="absolute top-[23rem] scale-110 hidden lg:block"
         />
         <Image
-          src={shortLeaf}
-          height={90}
-          width={90}
+          src={code_of_conduct_leaf}
+          height={240}
+          width={240}
           alt="leaf"
-          className="absolute top-80 right-3 hidden lg:block"
-        />
-        <Image
-          src={shortLeaf}
-          height={55}
-          width={55}
-          alt="leaf"
-          className="absolute top-[50rem] -left-3 hidden lg:block"
+          className="absolute top-[48rem] right-0 hidden lg:block"
           style={{ transform: "scaleX(-1)", WebkitTransform: "scaleX(-1)" }}
         />
-        <Image
-          src={longLeafSVG}
-          height={70}
-          width={70}
+       <Image
+          src={code_of_conduct_leaf}
+          height={200}
+          width={200}
           alt="leaf"
-          className="absolute top-[65rem] right-0 hidden lg:block"
+          className="absolute top-[77rem] scale-110 hidden lg:block"
+        />
+        <Image
+          src={code_of_conduct_leaf}
+          height={240}
+          width={240}
+          alt="leaf"
+          className="absolute top-[98rem] right-0 hidden lg:block"
           style={{ transform: "scaleX(-1)", WebkitTransform: "scaleX(-1)" }}
         />
-        <Image
-          src={shortLeaf}
-          height={55}
-          width={55}
-          alt="leaf"
-          className="absolute top-[125rem] right-0 hidden lg:block"
-          style={{ transform: "rotate(-10deg)" }}
-        />
+     
         <Image
           src={shortFatLeaf}
-          height={105}
-          width={105}
+          height={200}
+          width={200}
           alt="leaf"
-          className="absolute top-[105rem] left-0 hidden lg:block"
+          className="absolute top-[124rem] left-0 hidden lg:block"
           style={{ transform: "scaleX(-1)" }}
         />
         <Image
@@ -64,15 +59,15 @@ const COD = () => {
           height={80}
           width={80}
           alt="leaf"
-          className="absolute top-[135rem] left-0 hidden lg:block scale-150"
+          className="absolute top-[163rem] left-4 hidden lg:block scale-150"
           // style={{ transform: "scaleX(-1)", WebkitTransform: "scaleX(-1)" }}
         />
         <Image
           src={shortLeaf}
-          height={90}
-          width={90}
+          height={140}
+          width={140}
           alt="leaf"
-          className="absolute top-[165rem] right-0 lg:block hidden"
+          className="absolute top-[180rem] right-0 lg:block hidden"
           style={{ transform: "rotate(-5deg)" }}
         />
       <CodeOfConductSection/>

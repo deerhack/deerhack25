@@ -6,8 +6,7 @@ const codeOfConduct = () => {
     <div className={`${cabinetRegular.className} md:text-lg `}>
       <h1 className={`headings ${cabinetExtraBold.className} text-5xl mb-16 pt-32 `}>Code Of Conduct</h1>
       <div className="flex flex-col text-white md:px-24 px-10 text-wrap">
-      <h2 className={`text-3xl text-secondary ${cabinetExtraBold.className} mb-5`}>Why Code of Conduct?</h2>
-          <p className="mb-10">
+          <p className="mb-20 leading-loose">
             Nepal&apos;s developer community is constantly developing. We see it
             as our duty to do everything in our power to foster a welcoming and
             secure atmosphere for hackathons and the community at large. We want
@@ -19,15 +18,15 @@ const codeOfConduct = () => {
             aforementioned problems.
           </p>
 
-          <h2 className={`text-3xl ${cabinetExtraBold.className} text-secondary mb-5`}>Applicability</h2>
-          <p className="mb-10">
+          <h2 className={`text-3xl ${cabinetExtraBold.className} headings mb-5`}>Applicability</h2>
+          <p className="mb-20 leading-loose">
             All participants, sponsors, and other stakeholders in DeerHack, as
             well as any projects created here, are subject to this Code of
             Conduct.
           </p>
 
-          <h2 className={`text-3xl text-secondary ${cabinetExtraBold.className} mb-5`}>The Short Version</h2>
-          <p className="mb-10">
+          <h2 className={`text-3xl headings ${cabinetExtraBold.className} mb-5`}>The Short Version</h2>
+          <p className="mb-20 leading-loose">
             DeerHack is dedicated to providing an inclusive hackathon
             environment for all participants, regardless of gender, gender
             identity, and expression, age, sexual orientation, disability,
@@ -42,8 +41,8 @@ const codeOfConduct = () => {
             respect each and every one of them.
           </p>
 
-          <h2 className={`text-3xl text-secondary ${cabinetExtraBold.className} mb-5`}>No Plagiarism or Re-Use of Past Work </h2>
-          <p className="mb-10">
+          <h2 className={`text-3xl headings ${cabinetExtraBold.className} mb-5`}>No Plagiarism or Re-Use of Past Work </h2>
+          <p className="mb-20 leading-loose">
             Only projects developed during DeerHack will be considered. However,
             you must disclose the extent of the prior use with your submission
             if you desire to submit projects that contain previously used code
@@ -55,8 +54,8 @@ const codeOfConduct = () => {
             submission from receiving awards on its own merits.
           </p>
 
-          <h2 className={`text-3xl text-secondary ${cabinetExtraBold.className} mb-5`}>Rules for Participants:</h2>
-          <ul className="mb-10 list-disc">
+          <h2 className={`text-3xl headings ${cabinetExtraBold.className} mb-5`}>Rules for Participants:</h2>
+          <ul className="mb-20 leading-loose list-disc">
             <li>
               Participants of all ages, genders, and geographies are welcome.
             </li>
@@ -77,17 +76,17 @@ const codeOfConduct = () => {
               Shortlisted applicants must produce the following documentation
               upon request of the organizers:
             </li>
-            <ul className=" pl-10 list-disc">
+            <ul className=" pl-10 leading-loose list-disc">
               <li>The applicant&apos;s college Identity Card.</li>
               <li>Examples of the candidate&apos;s work or portfolio.</li>
             </ul>
-            <li>
+            <li className="leading-loose">
               Consumption of any illegal substances inside the Deerwalk Complex premises is strictly forbidden. If found, disciplinary actions will be taken.
             </li>
           </ul>
 
-          <h2 className={`text-3xl text-secondary ${cabinetExtraBold.className} mb-5`}>Rules for Team Formation</h2>
-          <ul className="mb-10 list-disc">
+          <h2 className={`text-3xl headings ${cabinetExtraBold.className} mb-5`}>Rules for Team Formation</h2>
+          <ul className="mb-20 leading-loose list-disc">
             <li>Teams can have a maximum of five members. <i>In special cases of individual teams, the number can be extended to 6.</i></li>
             <li>Each team must have at least three members.</li>
             <li>
@@ -101,8 +100,8 @@ const codeOfConduct = () => {
             </li>
           </ul>
 
-          <h2 className={`text-3xl text-secondary ${cabinetExtraBold.className} mb-5`}>Rules for Project Development</h2>
-          <ul className="mb-10 list-disc">
+          <h2 className={`text-3xl headings ${cabinetExtraBold.className} mb-5`}>Rules for Project Development</h2>
+          <ul className="mb-20 leading-loose list-disc">
             <li>
               No development should begin before the event&apos;s actual date
               and time. Any teams found violating this condition will be
@@ -124,8 +123,8 @@ const codeOfConduct = () => {
             </li>
           </ul>
 
-          <h2 className={`text-3xl text-secondary ${cabinetExtraBold.className} mb-5`}>Rules for Project Submission</h2>
-          <ul className="mb-10 list-disc">
+          <h2 className={`text-3xl headings ${cabinetExtraBold.className} mb-5`}>Rules for Project Submission</h2>
+          <ul className="mb-20 leading-loose list-disc">
             <li>
               Only registered teams will be permitted to submit their product.
             </li>
@@ -152,8 +151,8 @@ const codeOfConduct = () => {
             </li>
           </ul>
 
-          <h2 className={`text-3xl text-secondary ${cabinetExtraBold.className} mb-5`}>No Harassment Policy</h2>
-          <p className="mb-10">
+          <h2 className={`text-3xl headings ${cabinetExtraBold.className} mb-5`}>No Harassment Policy</h2>
+          <p className="mb-20 leading-loose">
             We do not tolerate any form of harassment of hackathon participants,
             including offensive verbal discrimination, public display of sexual
             material in public settings, willful disruption, intentional
@@ -162,8 +161,8 @@ const codeOfConduct = () => {
             without the subject&apos;s consent.
           </p>
 
-          <h2 className={`text-3xl text-secondary ${cabinetExtraBold.className} mb-5`}>Reporting Guidelines</h2>
-          <p className="">
+          <h2 className={`text-3xl headings ${cabinetExtraBold.className} mb-5`}>Reporting Guidelines</h2>
+          <p className="leading-loose">
             Please get in touch with a member of our staff right away if you are
             experiencing harassment, see someone else experiencing harassment,
             are worried about the event&apos;s safety and the participants&apos;
@@ -172,19 +171,20 @@ const codeOfConduct = () => {
             gladly assist participants in contacting security or in finding
             other ways to make individuals who are being harassed feel secure
             throughout the hackathon.
+         
           </p>
           <p className="">
             DeerHack members will be identifiable by their distinct uniforms and
             IDs.
           </p>
-          <p className={`text-sm my-10  italic`}>All reports will be kept confidential.</p>
+          <p className="mb-20 leading-loose">All reports will be kept confidential.</p>
 
-          <h2 className={`text-3xl text-secondary ${cabinetExtraBold.className} mb-5`}>Consequences of Violations</h2>
-          <p className="">
+          <h2 className={`text-3xl headings ${cabinetExtraBold.className} mb-5`}>Consequences of Violations</h2>
+          <p className="leading-loose">
             Failure to follow the above-mentioned Rules and Code of Conduct may
             result in (at the discretion of the organizers):
           </p>
-          <ul className="mb-10 list-disc">
+          <ul className="mb-20 leading-loose list-disc">
             <li>Disqualification of the offending team.</li>
             <li>
               Barring their access to DeerHack resources and/or any facilities
@@ -193,13 +193,19 @@ const codeOfConduct = () => {
             <li>Reporting of their actions to local law enforcement.</li>
           </ul>
 
-          <h2 className={`text-3xl text-secondary ${cabinetExtraBold.className} mb-5`}>Addressing Grievances</h2>
-          <p className="mb-10">
+          <h2 className={`text-3xl headings ${cabinetExtraBold.className} mb-5`}>Addressing Grievances</h2>
+          <p className="mb-10 leading-loose">
             If you believe you have been falsely or unfairly accused of
             breaching this Code of Conduct, please alert a member of the
             organizing team and provide a brief summary of your grievance. Our
             committee will handle your complaint in accordance with our existing
             internal governing policies.
+          </p>
+
+          <p className="leading-loose">
+          If you have questions regarding your application, contact:<br/>
+          Dipan Silwal : <a href="tel:">9742827007 </a> <br/>
+          Pragalva Sapkota :  <a href = "tel:">9741860722</a>
           </p>
       </div>
 
