@@ -39,7 +39,7 @@ export default function LegacyPage(){
 />
 
         </div>
-        <div>
+        <div className="pb-[100rem] flex items-center justify-center">
           <HistorySection/>
         </div>
         <Footer/>
