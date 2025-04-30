@@ -24,14 +24,14 @@ export default function RegisterCard(): ReactElement {
             </p>
           </div>
           <Link
-            href="/pre-register"
+            href="https://deerhack-25.devfolio.co/"
             target="_blank"
             className="lg:ml-20"
           >
             <button
               className={` ${satoshiBlack.className} text-center text-sm lg:text-xl bg-secondary text-dark-purple p-3 rounded lg:ml-20 bg-opacity-90 hover:bg-opacity-100 transition duration-300 ease-in-out w-fit md:w-[13rem]  `}
             >
-              Pre-Register Now
+              Register Now
             </button>
           </Link>
         </div>
