@@ -202,7 +202,7 @@ const codeOfConduct = () => {
             internal governing policies.
           </p>
 
-          <p className="mb-20 leading-loose">
+          <p className="leading-loose">
           If you have questions regarding your application, contact:<br/>
           Dipan Silwal : <a href="tel:">9742827007 </a> <br/>
           Pragalva Sapkota :  <a href = "tel:">9741860722</a>
