@@ -19,8 +19,8 @@ export default function CardDark({
   svg: ReactElement;
 }) {
   return (
-    <div className=" primary-border-background lg:w-[32.93rem] lg:h-[18.37rem] md:w-[36rem] min-h-[17.93rem] h-fit w-full  rounded-[1.875rem] p-[0.1875rem] relative ">
-      <div className=" new-gradient-background w-full h-full rounded-[1.875rem] flex flex-col px-12 gap-[21px] justify-center relative">
+    <div className=" primary-border-background lg:w-[32.93rem] lg:h-[18.7rem] md:w-[36rem] min-h-[17.93rem] rounded-[1.875rem] p-[0.1875rem] relative gap-5">
+      <div className=" new-gradient-background w-full h-full rounded-[1.875rem] flex flex-col px-12 gap-7 justify-center">
         <div>
           <div
             className={`${cabinetExtraBold.className} text-primary-gradient-color lg:text-[2rem] text-[1.5rem] w-[10.69rem] md:w-[18.72rem] sm:leading-[2rem] md:leading-[2.75rem] pb-[1.5rem] md:pb-0 font-extrabold z-10 md:mb-[1.5rem]`}
