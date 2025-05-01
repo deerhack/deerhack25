@@ -111,7 +111,7 @@ const Navbar = () => {
 
                 <div className="relative text-left" ref={resourceRef}>
                   <span className="hover:text-secondary cursor-pointer block text-2xl " onClick={handleResourceClick}>
-                    {/* Resources */}
+                    Resources
                   </span>
 
                   {isResourceOpen && (
@@ -119,7 +119,7 @@ const Navbar = () => {
                       <ul className={`${cabinetMedium.className} space-y-3 text-left `}>
                         <li>
                           <a
-                            href="/resources/selection_criteria.pdf"
+                            href="/selection-criteria"
                             className="hover:text-secondary text-xl"
                             target="_blank"
                             rel="noreferrer"
@@ -179,7 +179,7 @@ const Navbar = () => {
           )}
 
           {/* Desktop menu content */}
-          <div className="hidden lg:flex lg:flex-row lg:items-center lg:gap-[7.5rem] ">
+          <div className="hidden lg:flex lg:flex-row lg:items-center lg:gap-[3rem] ">
             <div className="flex lg:flex-row lg:items-center h-full lg:gap-8 text-magnolia ">
               <Link href="/schedule" className={`hover:text-secondary text-base ${cabinetBold.className} `}>
                 {/* Schedule */}
@@ -190,7 +190,7 @@ const Navbar = () => {
                   className={`hover:text-secondary cursor-pointer  block text-base ${cabinetBold.className}`}
                   onClick={handleResourceClick}
                 >
-                  {/* Resources */}
+                  Resources
                 </span>
 
                 {isResourceOpen && (
@@ -203,7 +203,7 @@ const Navbar = () => {
                       </li>
                       <li className="pt-4 px-6 mb-4">
                         <a
-                          href="/resources/selection_criteria.pdf"
+                          href="/selection-criteria"
                           className="hover:text-secondary"
                           target="_blank"
                           rel="noreferrer"

@@ -47,7 +47,7 @@ const Hero = () => {
         </Link>
 
         <Link
-          href="https://discord.gg/xX6YeGzADd"
+          href="https://discord.gg/Us55AWTQMj"
           className="inline-block"
           target="_blank"
         >
