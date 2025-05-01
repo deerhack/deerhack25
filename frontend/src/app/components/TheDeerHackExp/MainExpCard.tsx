@@ -27,7 +27,7 @@ export default function MainExpCard({
             <div className="absolute md:top-[-0.5rem] lg:top-[0.5rem] md:right-[0.1rem] lg:right-[0.1rem] ">{svg}</div>
             <div
               className={`${cabinetRegular.className} text-white w-[16.147rem]  lg:w-[19.045rem] h-[8.033rem] lg:h-[10.331rem]
-                md:text-[1.1rem] lg:text-[1.25rem] text-justify lg:leading-7 font-[500] absolute top-24 lg:top-[7rem] md:right-[-0.5rem] lg:right-[0.1rem]`}
+                md:text-[1.1rem] lg:text-[1.25rem] text-left lg:leading-7 font-[500] absolute top-24 lg:top-[7rem] md:right-[-0.5rem] lg:right-[0.1rem]`}
             >
               {description}
             </div>
