@@ -23,7 +23,7 @@ const TracksBodyCard: React.FC<TracksBodyCardProps> = ({
     <div
     className={`relative md:p-10 max-w-[1250px] min-h-[400px] sm:min-h-[526px] sm:max-h-[423px] flex xl:items-center justify-start align-start flex-col xl:flex-row cursor-pointer px-8 lg:pb-44 pb-24 pt-10 text-lg lg:mx-0 ${cabinetBold.className} rounded-2xl bg-grape ${bodyStyling} gap-8 lg:gap-0 `}
   >
-    <div className="xl:w-3/5 self-start sm:xl lg:px-5 lg:mt-[100px] lg:ml-[20px] pb-20 sm:pb-0  md:mt-[60px]  ">
+    <div className="xl:w-3/5 self-start sm:xl lg:px-5 lg:mt-[100px] lg:ml-[20px] pb-20 sm:pb-0  md:mt-[60px] sm:mt-[60px] ">
   <div className="rounded-full w-16 h-16 flex items-center justify-start">
     {svg}
   </div>

@@ -23,13 +23,13 @@ export default function CardDark({
       <div className=" new-gradient-background w-full h-full rounded-[1.875rem] flex flex-col px-12 gap-[21px] justify-center relative">
         <div>
           <div
-            className={`${cabinetExtraBold.className} text-primary-gradient-color lg:text-[2rem] text-[1.5rem] w-[10.69rem] md:w-[18.72rem] md:leading-[2.75rem] pb-[1.5rem] md:pb-0 font-extrabold z-10 `}
+            className={`${cabinetExtraBold.className} text-primary-gradient-color lg:text-[2rem] text-[1.5rem] w-[10.69rem] md:w-[18.72rem] sm:leading-[2rem] md:leading-[2.75rem] pb-[1.5rem] md:pb-0 font-extrabold z-10 md:mb-[1.5rem]`}
           >
             {title}
           </div>
           <div className="flex flex-row items-left gap-10 lg:gap-7 h-[70%] md:h-auto  md:flex-row  md:items-center">
             <div
-              className={`${cabinetRegular.className} text-white w-[16.72rem] md:w-[19rem] lg:w-[22.985rem] lg:h-[6rem] text-[1rem] font-medium text-justify-stretch pr-7 z-10 `}
+              className={`${cabinetRegular.className} text-white w-[16.72rem] md:w-[19rem] lg:w-[17.9rem] lg:h-[6rem] text-[1rem] font-medium md:text-justify pr-7 z-10 `}
             >
               {description}
             </div>

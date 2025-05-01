@@ -23,13 +23,13 @@ export default function CardLight({
       <div className=" w-full h-full rounded-[1.875rem] flex flex-col px-12 gap-7 justify-center items-start">
         <div>
         <div
-          className={`${cabinetExtraBold.className} text-primary-gradient-color lg:text-[2rem] text-[1.5rem] w-[10.69rem] md:w-[18.72rem] md:leading-[2.75rem] pb-0 font-extrabold z-10`}
+          className={`${cabinetExtraBold.className} text-primary-gradient-color lg:text-[2rem] text-[1.5rem] w-[12rem] md:w-[18.72rem] leading-0 md:leading-[2.75rem] pb-0 font-extrabold z-10  md:mb-[1.7rem]`}
         >
           {title}
         </div>
         <div className="flex flex-row items-left lg:gap-7 gap-10 h-[70%] md:h-auto  md:flex-row  md:items-center">
           <div
-            className={`${cabinetRegular.className} text-white w-[16.72rem] md:w-[19.51rem] lg:w-[22.985rem] lg:h-[6rem] text-[1rem] font-medium text-justify-stretch pr-7 z-10`}
+            className={`${cabinetRegular.className} text-white w-[16.72rem] md:w-[19.51rem] lg:w-[21rem] lg:h-[6rem] text-[1rem] font-medium md:text-justify pr-7 z-10 pt-[1.5rem] md:pt-0 lg:pt-0`}
           >
             {description}
           </div>

@@ -15,7 +15,7 @@ export default function CardLarge(): ReactElement {
       <div className="rounded-xl md:h-full sm:h-full h-[30rem] w-80 lg:w-[24rem] bg-dark-purple  flex flex-col px-6 pt-4 pb-16 justify-between">
         
         <div className="flex flex-col gap-2">
-          <GenderSVG height={40} width={40} />
+          <GenderSVG height={50} width={50} />
           <p className={`${cabinetBold.className} text-white text-2xl`}>
             Gender Distribution
           </p>
@@ -42,12 +42,12 @@ export default function CardLarge(): ReactElement {
               80%
             </div>
             {/* Decrease Stat */}
-            <div className="flex items-center gap-1 self-start">
+            {/* <div className="flex items-center gap-1 self-start">
               <DecreaseStatSVG height={16} width={16} />
               <p className={`${cabinetRegular.className} text-white text-sm`}>
                 5%
               </p>
-            </div>
+            </div> */}
           </div>
 
           {/* Female Stats */}
