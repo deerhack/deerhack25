@@ -7,6 +7,7 @@ import QuotesCard from "@/app/components/Quotes/QuotesCard";
 import WinnerCard from "@/app/components/Winners/WinnersCard";
 import DeerHack23Legacy from "@/app/components/Legacy/DeerHack23Legacy";
 import Winners23SVG from "@/app/assets/images/legacyWinners23SVG";
+import LegacyDemoSVG from "../../assets/images/TeamSolo";
 
 const Page = () => {
     return (
@@ -18,10 +19,16 @@ const Page = () => {
             
         </h1>
         <div className = "flex flex-col">
-        <QuotesCard />
+            <div className="mb-[5rem]">
+        <QuotesCard 
+        title="“We wanted Deehack to be the Best Hackathon in Nepal and we made it possible”"
+        description="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non"
+        name="John Doe"
+        position="CEO, ABC"
+        photo={<LegacyDemoSVG width={261.03} height={190}/>}
+        />
+        </div>
 
-
-        
         <DeerHack23Legacy
             logo={<Winners23SVG width={261.03} height={190}/>}
             title="Contrivers"
