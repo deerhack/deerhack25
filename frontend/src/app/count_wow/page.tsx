@@ -3,7 +3,7 @@ import { cabinetBlack, cabinetBold } from "../utils/fonts";
 
 export default async function Page() {
   const response = await fetch(
-    "https://api.devfolio.co/api/hackathons/deerhack24",
+    "https://api.devfolio.co/api/hackathons/deerhack-25",
     {
       cache: "no-store",
     },
