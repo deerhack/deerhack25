@@ -7,7 +7,7 @@ import QuotesCard from "@/app/components/Quotes/QuotesCard";
 import WinnerCard from "@/app/components/Winners/WinnersCard";
 import DeerHack23Legacy from "@/app/components/Legacy/DeerHack23Legacy";
 import Winners23SVG from "@/app/assets/images/legacyWinners23SVG";
-import LegacyDemoSVG from "../../assets/images/TeamSolo";
+import LegacyDemoSVG from "../../assets/images/legacyWinners23SVG";
 
 const Page = () => {
     return (
