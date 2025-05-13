@@ -12,7 +12,6 @@ export default function LegacyPage(){
         <>
         <Navbar/>
         <div className="relative overflow-hidden flex items-center justify-center w-full  mx-auto">
-     
         <LegacySection/>
         <Image
   src={LegacyFlower}
