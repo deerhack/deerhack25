@@ -4,7 +4,9 @@ import { ReactElement } from "react";
 import { cabinetBold, cabinetExtraBold, cabinetMedium, satoshiRegular } from "../../utils/fonts";
 
 interface QuotesCardDetails {
-    title:string;
+    title_front:string;
+    title_highlight:string;
+    title_back:string;
     description:string;  
     name:string;
     position:string;
@@ -12,7 +14,9 @@ interface QuotesCardDetails {
 }
 
 const QuotesCard: React.FC<QuotesCardDetails> = ({
-            title,
+            title_front,
+            title_highlight,
+            title_back,
             description,
             name,
             position, 
@@ -48,7 +52,7 @@ const QuotesCard: React.FC<QuotesCardDetails> = ({
                                     <div className="bg-dark-purple w-full h-full rounded-[1.9rem]">
                                         <div className="flex flex-col py-[2rem] px-[3.063rem] lg:py-[4.3rem] lg:px-[4.813rem] justify-center items-center">
                                             <div className={`${cabinetBold.className} text-[1.5rem] lg:leading-[3rem] lg:text-[2.25rem] mb-[1.5rem]`}>
-                                                {title}<br />
+                                                {title_front}<span className="text-secondary">{title_highlight}</span>{title_back}<br />
                                             </div>
                                             <div className={`${cabinetMedium.className} text-[0.75rem] leading-[1.5rem] lg:text-[1.125rem]`}>
                                                 {description}

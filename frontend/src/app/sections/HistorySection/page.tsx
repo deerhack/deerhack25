@@ -21,7 +21,9 @@ const Page = () => {
         <div className = "flex flex-col">
             <div className="mb-[5rem]">
         <QuotesCard 
-        title="“We wanted Deehack to be the Best Hackathon in Nepal and we made it possible”"
+        title_front="We wanted Deehack to be the "
+        title_highlight="Best Hackathon in Nepal"
+        title_back=" and we made it possible”"
         description="Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non"
         name="John Doe"
         position="CEO, ABC"
