@@ -18,8 +18,8 @@ export default function RegisterCard(): ReactElement {
             <p
               className={`${satoshiRegular.className} items-center text-white text-sm lg:text-xl mt-[1.5rem] mb-[0.5rem]`}
             >
-              Secure your spot at DeerHack today and elevate your skills,
-              <br className="hidden lg:block" /> expand your network, and ignite
+              Secure your spot at DeerHack today and elevate 
+              <br className="hidden lg:block" /> your skills, expand your network, and ignite
               innovation.
             </p>
           </div>
