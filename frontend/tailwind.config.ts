@@ -39,6 +39,7 @@ const config: Config = {
       animation: {
         "infinite-scroll": "infinite-scroll 70s linear infinite",
         "inf-scroll": "inf-scroll 70s linear infinite",
+         'slide-left': 'slide-left 8s linear infinite',
       },
       keyframes: {
         "infinite-scroll": {
@@ -49,9 +50,14 @@ const config: Config = {
           from: { transform: "translateX(-100%)" },
           to: { transform: "translateX(0)" },
         },
+         "slide-left": {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        },
       },
     },
   },
+  
   plugins: [],
   corePlugins: {
     opacity: true,

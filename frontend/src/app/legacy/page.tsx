@@ -39,8 +39,11 @@ export default function LegacyPage(){
 />
 
         </div>
-        <div className="pb-[100rem] flex items-center justify-center">
+        <div className="pb-[10rem] flex items-center justify-center">
           <HistorySection/>
+        </div>
+        <div className="headings">
+          Honoring the legacy of DeerHack by honoring its Essence, Evolving its vision and passing it with a purpose every year.
         </div>
         <Footer/>
       
