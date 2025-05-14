@@ -55,28 +55,29 @@ const LegacyCard: React.FC<LegacyCardDetails> = ({
         
 
            
-            <div className="flex justify-center mt-[-50px]">
+            <div className="flex justify-center mt-[-50px] relative">
+                  <Image
+                    src={LegacyLeafLeft}
+                    width={380}
+                    height={100}
+                    alt="left leaf"
+                    className="-z-10  lg:hidden absolute block left-[-100px] "
+                />
                 <Image
                     src={LegacyFlower}
                     width={140}
                     height={252.2}
                     alt="center flower"
-                    className=" md:hidden lg:hidden sm:hidden"
+                    className="  lg:hidden  block"
                 />
                  <Image
                     src={LegacyLeafRight}
                     width={170}
                     height={100}
                     alt="right leaf"
-                    className="absolute top-[1900px] left-[260px]   -z-10 md:hidden lg:hidden sm:hidden"
+                    className="   -z-10  absolute lg:hidden block left-[100px]"
                 />
-                <Image
-                    src={LegacyLeafLeft}
-                    width={170}
-                    height={100}
-                    alt="left leaf"
-                    className="absolute top-[1900px] left-[0px] -z-10 md:hidden lg:hidden  sm:hidden"
-                />
+              
                 
             </div>
            

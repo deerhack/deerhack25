@@ -12,7 +12,7 @@ const Page = () => {
         <>
             <div className="lg:w-[1351px] lg:h-[1100px] text-white flex flex-col items-center justify-center mx-auto relative ">
                 <h1
-                    className={`headings ${cabinetExtraBold.className} text-5xl mb-16 pt-32 justify-center text-center`}>
+                    className={`headings ${cabinetExtraBold.className} text-5xl mb-16 pt-32  justify-center text-center`}>
                     Legacy
                 </h1>
                 <div className="lg:flex justify-start items-center ">

@@ -68,14 +68,14 @@ const LegacyCard: React.FC<LegacyCardDetails> = ({
                     width={645}
                     height={284}
                     alt="right leaf"
-                    className="absolute top-[650px] left-[650px] lg:block opacity-20 -z-10 md:hidden sm:hidden"
+                    className="absolute top-[650px] left-[650px] lg:block opacity-20 -z-10 hidden"
                 />
                 <Image
                     src={LegacyLeafLeft}
                     width={645}
                     height={284}
                     alt="left leaf"
-                    className="absolute top-[650px] left-[80px] lg:block opacity-20 z-0 md:hidden sm:hidden hidden"
+                    className="absolute top-[650px] left-[80px] lg:block opacity-20 z-0  hidden"
                 />
                 
             </div>

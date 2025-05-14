@@ -24,7 +24,7 @@ const LegacyCard: React.FC<LegacyCardDetails> = ({
     participation,
 }) => {
    return (
-  <div className="w-full flex flex-col items-center py-5 z-0 mt-12 lg:mt-[-210px] ">
+  <div className="w-full flex flex-col items-center py-5 z-0 mt-[-5px] lg:mt-[-210px]  ">
    
     <div className="border-[3px] border-secondary rounded-2xl w-[310px] sm:w-[500px] lg:w-[380px] md:h-[150px] md:[130px]  lg:h-[170px] legacy-gradient py-4 px-4 sm:py-7 sm:px-10 flex justify-center items-center">
   {logo}
