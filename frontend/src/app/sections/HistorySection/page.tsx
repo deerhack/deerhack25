@@ -3,7 +3,7 @@ import LegacyCard from "@/app/components/Legacy/LegacyCards";
 import Deerhack24 from "@/app/assets/icons/MainLogo";
 import Deerhack25 from "@/app/assets/icons/Deerhack25";
 import styles from "./styles.module.css";
-import QuotesCard from "@/app/components/Quotes/QuotesCard";
+
 import LightBulbSVG from "@/app/assets/images/lightbulb";
 import DataLogoSVG from "@/app/assets/images/dataLogo";
 import BlockChainSVG from "@/app/assets/images/blockChainLogo";

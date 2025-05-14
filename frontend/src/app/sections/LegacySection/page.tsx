@@ -1,6 +1,7 @@
 import { cabinetBold, cabinetExtraBold } from "@/app/utils/fonts";
 import LegacyCard from "@/app/components/Legacy/LegacyCards";
 import LegacyFlowerCard from "@/app/components/Legacy/LegacyFlowerCard";
+import MobileLegacyFlowerCard from "@/app/components/Legacy/MobileLegacyFlowerCard";
 import Deerhack24 from "@/app/assets/icons/MainLogo";
 import Deerhack25 from "@/app/assets/icons/Deerhack25";
 import Deerhack23 from "@/app/assets/icons/Deerhack23";
@@ -9,14 +10,14 @@ import styles from "./styles.module.css";
 const Page = () => {
     return (
         <>
-            <div className="lg:w-[1351px] lg:h-[1100px] text-white flex flex-col items-center justify-center mx-auto relative">
+            <div className="lg:w-[1351px] lg:h-[1100px] text-white flex flex-col items-center justify-center mx-auto relative ">
                 <h1
                     className={`headings ${cabinetExtraBold.className} text-5xl mb-16 pt-32 justify-center text-center`}>
                     Legacy
                 </h1>
                 <div className="lg:flex justify-start items-center ">
                     <LegacyCard 
-                        logo={<Deerhack24 className="w-[200px] h-[75px] lg:w-[208px] lg:h-[92px] md:h-[92px] sm:[88px]"/>}
+                        logo={<Deerhack24 className="w-[200px] h-[75px] lg:w-[208px] lg:h-[92px] md:h-[92px] sm:[88px] "/>}
                         eventLead="Prayatna Mishra"
                         eventColead="Bipashree Aryal"
                         date="May 5, 6, 7: 2023"
@@ -33,7 +34,7 @@ const Page = () => {
                         participation={75}
                     />
 
-                    <LegacyCard 
+                    <MobileLegacyFlowerCard 
                         logo={<Deerhack25 className="w-[200px] h-[75px] lg:w-[208px] lg:h-[92px] md:h-[92px] sm:[88px"/>}
                         eventLead="Dipan Silwal"
                         eventColead="Pragalva Sapkota"

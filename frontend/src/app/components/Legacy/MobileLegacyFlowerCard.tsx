@@ -23,7 +23,7 @@ const LegacyCard: React.FC<LegacyCardDetails> = ({
     participation,
 }) => {
     return (
-       <div className="w-full flex flex-col items-center py-5 z-0 px-10 ">
+       <div className="w-full flex flex-col items-center py-[70px] z-0 lg:mt-[-255px]">
           
            <div className="border-[3px] border-secondary rounded-2xl w-[310px] sm:w-[500px] lg:w-[380px] md:h-[150px] md:[130px]  lg:h-[170px] legacy-gradient py-4 px-4 sm:py-7 sm:px-10 flex justify-center items-center">
          {logo}
@@ -58,24 +58,24 @@ const LegacyCard: React.FC<LegacyCardDetails> = ({
             <div className="flex justify-center mt-[-50px]">
                 <Image
                     src={LegacyFlower}
-                    width={370.47}
+                    width={140}
                     height={252.2}
                     alt="center flower"
-                    className="opacity-80 lg:block hidden"
+                    className=" md:hidden lg:hidden sm:hidden"
                 />
                  <Image
                     src={LegacyLeafRight}
-                    width={645}
-                    height={284}
+                    width={170}
+                    height={100}
                     alt="right leaf"
-                    className="absolute top-[650px] left-[650px] lg:block opacity-20 -z-10 md:hidden sm:hidden"
+                    className="absolute top-[1900px] left-[260px]   -z-10 md:hidden lg:hidden sm:hidden"
                 />
                 <Image
                     src={LegacyLeafLeft}
-                    width={645}
-                    height={284}
+                    width={170}
+                    height={100}
                     alt="left leaf"
-                    className="absolute top-[650px] left-[80px] lg:block opacity-20 z-0 md:hidden sm:hidden hidden"
+                    className="absolute top-[1900px] left-[0px] -z-10 md:hidden lg:hidden  sm:hidden"
                 />
                 
             </div>
