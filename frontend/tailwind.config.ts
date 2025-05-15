@@ -19,10 +19,6 @@ const config: Config = {
         magnolia: "#FCF7FF",
         green: "#004F2D",
         red: "#c70017",
-        statpurp:"#291954",
-        cardviolet:"#241A4A4D",
-        cardgrape:"#6633CC2B",
-        orange:"#F66218",
       },
       gradientColorStopPositions: {
         3: "3%",
@@ -43,6 +39,7 @@ const config: Config = {
       animation: {
         "infinite-scroll": "infinite-scroll 70s linear infinite",
         "inf-scroll": "inf-scroll 70s linear infinite",
+         'slide-left': 'slide-left 8s linear infinite',
       },
       keyframes: {
         "infinite-scroll": {
@@ -53,9 +50,14 @@ const config: Config = {
           from: { transform: "translateX(-100%)" },
           to: { transform: "translateX(0)" },
         },
+         "slide-left": {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        },
       },
     },
   },
+  
   plugins: [],
   corePlugins: {
     opacity: true,
