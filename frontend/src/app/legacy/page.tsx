@@ -7,6 +7,7 @@ import LegacyLeafLeft from "../assets/images/LegacyLeafLeft.svg";
 import LegacyLeafRight from "../assets/images/LegacyLeafRight.svg";
 import { LegacySection } from "../sections/LegacySection";
 import { HistorySection } from "../sections/HistorySection";
+import { cabinetBold, cabinetExtraBold, cabinetMedium } from "@/app/utils/fonts";
 export default function LegacyPage(){
     return(
         <>
@@ -15,8 +16,11 @@ export default function LegacyPage(){
         <LegacySection/>
 
         </div>
-        <div>
+       <div className="pb-[10rem] flex items-center justify-center">
           <HistorySection/>
+        </div>
+        <div className={`headings ${cabinetBold.className} text-left p-16`}>
+          Honoring the legacy of DeerHack by honoring its Essence, Evolving its vision and passing it with a purpose every year.
         </div>
         <Footer/>
       
