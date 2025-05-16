@@ -18,7 +18,7 @@ const Hero = () => {
       <p
           className={`  text-2xl md:text-4xl lg:text-3xl font-bold text-center text-heropage-gradient ${cabinetBold.className}`}
         >
-          6th - 8th June
+          11th - 13th July
         </p>
         <DeerHack25Logo className="mt-3 h-auto w-full md:mt-6" width={309} height={130} />
         {/* <div
