@@ -128,7 +128,7 @@ export default function   Footer(): ReactElement {
               Venue: Deerwalk Complex
             </p>
             <p className={`text-[16px] ${cabinetRegular.className}`}>
-              Date: 6th-8th Jun, 2025
+              Date: 11th-13th July, 2025
             </p>
           </div>
         </div>
