@@ -13,32 +13,32 @@ type listContent = {
     svg: ReactElement
 }
 
-export default function OtherWinners() {
+export default function OtherWinners24() {
     const lists: listContent[] = [
         {
             id: 1,
-            title: "Code Crusaders",
-            description: "DeerHack 2023 Open Innovation Track Winner",
+            title: "Team Decent",
+            description: "DeerHack 2024 Open Innovation Track Winner",
             svg: <LightBulbSVG />,
         },
         {
             id: 2,
-            title: "The Kripples",
-            description: "DeerHack 2023 Data Science / ML Track Winner",
+            title: "Nymna",
+            description: "DeerHack 2024 Data Science / ML Track Winner",
             svg: <DataLogoSVG />,
 
         },
         {
             id: 3,
-            title: "Custodes",
-            description: "DeerHack 2023 Blockchain Track Winner",
+            title: "Error-404",
+            description: "DeerHack 2024 Blockchain Track Winner",
             svg: <BlockChainSVG />,
 
         },
         {
             id: 4,
-            title: "Pentagon",
-            description: "DeerHack 2023 Interactive Technology Track Winner",
+            title: "Team Everest",
+            description: "DeerHack 2024 Interactive Technology Track Winner",
             svg: <InteractiveLogoSVG />,
 
         },

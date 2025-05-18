@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import { cabinetBold, cabinetExtraBold, cabinetMedium, satoshiRegular } from "../../utils/fonts";
-import OtherWinners from "./OtherWinners";
+import OtherWinners24 from "./otherWinners24";
 
 interface LegacyCardDetails {
     logo:ReactElement;
@@ -9,7 +9,7 @@ interface LegacyCardDetails {
    
 }
 
-const DeerHack23Legacy: React.FC<LegacyCardDetails> = ({
+const DeerHack24Legacy: React.FC<LegacyCardDetails> = ({
     logo,
     title,
     description,
@@ -32,9 +32,9 @@ const DeerHack23Legacy: React.FC<LegacyCardDetails> = ({
                 </div>
             </div>
 
-            <OtherWinners/>
+            <OtherWinners24/>
         </div>
     );
 }
 
-export default DeerHack23Legacy;
+export default DeerHack24Legacy;
