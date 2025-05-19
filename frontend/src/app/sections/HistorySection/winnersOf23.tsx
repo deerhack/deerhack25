@@ -15,22 +15,22 @@ export default function WinnersOf23() {
     const quotes = [
         {
             id: 1,
-            titleFront: "We wanted Deehack to be the ",
-            titleHighlight: "Best Hackathon in Nepal",
-            description: " and we made it possible”",
+            titleFront: "“We wanted Deehack to be the ",
+            titleHighlight: "Best Hackathon in Nepal ",
+            description: "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi... ",
             titleBack:
-                "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi...",
+                " and we made it possible”",
             name: "John Doe",
             position: "CEO, ABC",
             photo: <LegacyDemoSVG width={261.03} height={190} />,
         },
         {
             id: 2,
-            titleFront: "This is dummy text 2 ",
+            titleFront: "“This is dummy text 2 ",
             titleHighlight: "Best Hackathon in Nepal",
-            description: " and we made it possible”",
+            description: "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi...",
             titleBack:
-                "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi...",
+                " and we made it possible” ",
             name: "Jane Doe",
             position: "CTO, XYZ",
             photo: <IdeaSVG />,
