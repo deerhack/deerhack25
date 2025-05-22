@@ -39,7 +39,7 @@ export default function   Footer(): ReactElement {
                   </span>
                 </div>
               </Link>
-              <Link href="tel: +977-9847357575">
+              <Link href="tel: +977-9742827007">
                 <div className="text-white flex flex-row justify-start items-center">
                   <PhoneSVG />
 
