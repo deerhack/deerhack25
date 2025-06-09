@@ -96,7 +96,7 @@ export default function WinnersOf23() {
                         <div
                             key={i}
                             onClick={() => setIndex(i)}
-                            className={`w-3 h-3 rounded-full cursor-pointer transition-all duration-300 ${i === index ? "bg-white scale-110" : "bg-gray-500"
+                            className={`w-2 h-2 rounded-full cursor-pointer transition-all duration-300 ${i === index ? "bg-white scale-110" : "bg-gray-500"
                                 }`}
                         />
                     ))}
