@@ -9,7 +9,7 @@ import DevfolioLogo from "@/app/assets/images/sponsors/Devfolio_Logo-White.svg";
 import HamroCSITLogo from "@/app/assets/images/sponsors/hamro_csit_logo_black.png";
 import HamroNotesLogo from "@/app/assets/images/sponsors/HamroNotesLogo.svg";
 import MountainJavaLogo from "@/app/assets/images/sponsors/MountainJavaLogo.svg";
-// import HamroPatroLogo from "@/app/assets/images/sponsors/HamroPatro.svg";
+import HamroPatroLogo from "@/app/assets/images/sponsors/HamroPatro.svg";
 // import Programiz from "@/app/assets/images/sponsors/Programiz.svg";
 // import trainingcenter from "@/app/assets/images/sponsors/trainingcenter.png";
 // import Jyotilogo from "@/app/assets/images/sponsors/Jyotilogo.png";
@@ -17,7 +17,8 @@ import MountainJavaLogo from "@/app/assets/images/sponsors/MountainJavaLogo.svg"
 // import Oliz from "@/app/assets/images/sponsors/Oliz.png";
 // import github from "@/app/assets/images/sponsors/Github.png";
 // import Luminr from "@/app/assets/images/sponsors/Luminr.svg";
-// import leapfrog from "@/app/assets/images/sponsors/leapfrog.svg";
+import leapfrog from "@/app/assets/images/sponsors/leapfrog.svg";
+import ultima from "@/app/assets/images/sponsors/ultima.svg";
 // import VT from "@/app/assets/images/sponsors/VT.png";
 // import SifalSchool from "@/app/assets/images/sponsors/SifalSchool.png";
 // import codefornepal from "@/app/assets/images/sponsors/codeForNepal.png";
@@ -106,34 +107,23 @@ const sponsors: SponsorType[] = [
 //       // },
 //     ],
 //   // },
-//   // {
-//   //   name: "Bronze Sponsors",
-//   //   sponsors: [
-//   //     {
-//   //       name: "Adex",
-//   //       url: "https://adex.ltd",
-//   //       image: adex,
-//   //       imageAlt: "adex Logo",
-//   //     },
-//   //     {
-//   //       name: "Metlife Nepal",
-//   //       url: "https://www.metlife.com.np/en/",
-//   //       image: metlife,
-//   //       imageAlt: "metlief Logo",
-//   //     },
-//   //   ],
-//   // },
-//   // {
-//   //   name: "Machine Learning and AI Track Partner",
-//   //   sponsors: [
-//   //     {
-//   //       name: "Leapfrog Technologies",
-//   //       url: "https://www.lftechnology.com",
-//   //       image: leapfrog,
-//   //       imageAlt: "Leapfrog Logo",
-//   //     },
-//   //   ],
-//   // },
+  {
+    name: "Bronze Sponsors",
+    sponsors: [
+      {
+        name: "Leapfrog Technologies",
+        url: "https://www.lftechnology.com",
+        image: leapfrog,
+        imageAlt: "Leapfrog Logo",
+      },
+      {
+        name: "Ultima Lifestyle",
+        url: "https://ultima.com.np/",
+        image: ultima,
+        imageAlt: "ultima",
+      },
+    ],
+  },
 //   // {
 //   //   name: "Open Innovation Track Partner",
 //   //   sponsors: [
@@ -156,17 +146,17 @@ const sponsors: SponsorType[] = [
 //   //     },
 //   //   ],
 //   // },
-//   // {
-//   //   name: "App Partner",
-//   //   sponsors: [
-//   //     {
-//   //       name: "Hamro Patro",
-//   //       url: "https://www.hamropatro.com",
-//   //       image: HamroPatroLogo,
-//   //       imageAlt: "HamroPatro Logo",
-//   //     },
-//   //   ],
-//   // },
+  {
+    name: "App Partner",
+    sponsors: [
+      {
+        name: "Hamro Patro",
+        url: "https://www.hamropatro.com",
+        image: HamroPatroLogo,
+        imageAlt: "HamroPatro Logo",
+      },
+    ],
+  },
 {
     name: "Track Sponsor",
     sponsors: [
