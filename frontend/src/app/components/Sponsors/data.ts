@@ -8,6 +8,7 @@ import DevfolioLogo from "@/app/assets/images/sponsors/Devfolio_Logo-White.svg";
 // import PolygonLogo from "@/app/assets/images/sponsors/Polygon_Logo-White.svg";
 import HamroCSITLogo from "@/app/assets/images/sponsors/hamro_csit_logo_black.png";
 import HamroNotesLogo from "@/app/assets/images/sponsors/HamroNotesLogo.svg";
+import GithubEducation from "@/app/assets/images/sponsors/GithubEducation.svg";
 import MountainJavaLogo from "@/app/assets/images/sponsors/MountainJavaLogo.svg";
 import HamroPatroLogo from "@/app/assets/images/sponsors/HamroPatro.svg";
 // import Programiz from "@/app/assets/images/sponsors/Programiz.svg";
@@ -176,6 +177,17 @@ const sponsors: SponsorType[] = [
         url: "https://www.instagram.com/mountain_java_coffee/",
         image: MountainJavaLogo,
         imageAlt: "Mountain Java Logo",
+      },
+    ],
+  },
+  {
+    name: "Supported By:",
+    sponsors: [
+      {
+        name: "Github Education",
+        url: "https://github.com/education",
+        image: GithubEducation,
+        imageAlt: "GithubEucation logo",
       },
     ],
   },
