@@ -38,67 +38,67 @@ const Mentors_value: Mentors[] = [
     name: "Bishal Joshi",
     position: "Software Engineer",
     linkedin_url: "https://www.linkedin.com/in/bishal-joshi-7a3711203",
-    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/911/11757/1717680690776/front-left-side-47.jpg?tr=w-664",
+    image: "https://ghostuf.github.io/static_images/bishal_joshi.png",
   },
   {
     name: "Toshika Ojha",
     position: "Client Success Consultant",
     linkedin_url: "https://www.linkedin.com/in/toshikaojha/",
-    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/911/11757/1717680690776/front-left-side-47.jpg?tr=w-664",
+    image:"https://ghostuf.github.io/static_images/toshika_ojha.png"
   },
   {
     name: "Luja Chitrakar",
     position: "Clock B Tech",
     linkedin_url: "https://www.linkedin.com/in/luja-chitrakar/",
-    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/911/11757/1717680690776/front-left-side-47.jpg?tr=w-664",
+    image:"https://ghostuf.github.io/static_images/luja_chitrakar.png"
   },
   {
     name: "Mala Deep Upadhaya",
     position: "Data Consultant - Dataksha Analytics",
     linkedin_url: "https://www.linkedin.com/in/maladeep",
-    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/911/11757/1717680690776/front-left-side-47.jpg?tr=w-664",
+    image: "https://ghostuf.github.io/static_images/mala_deep_upadhaya.png"
   },
   {
     name: "Elisha Baniya",
     position: "QA - Maitri Services",
     linkedin_url: "https://www.linkedin.com/in/elishabaniya",
-    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/911/11757/1717680690776/front-left-side-47.jpg?tr=w-664",
+    image: "https://ghostuf.github.io/static_images/elisha_baniya.png"
   },
   {
     name: "Mamata Maharjan",
     position: "Senior Software Engineer",
     linkedin_url: "https://www.linkedin.com/in/mamata-maharjan-b4197b178",
-    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/911/11757/1717680690776/front-left-side-47.jpg?tr=w-664",
+    image: "https://ghostuf.github.io/static_images/mamata_maharjan.png"
   },
   {
     name: "Sushan Shakya",
     position: "Full Stack Developer - RIMES",
     linkedin_url: "https://www.linkedin.com/in/sushan-shakya-8953711a6/",
-    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/911/11757/1717680690776/front-left-side-47.jpg?tr=w-664",
+    image: "https://ghostuf.github.io/static_images/sushan_shakya.png"
   },
   {
     name: "Prashant Malla",
     position: "Embedded System Engineer - Truenary Solutions",
     linkedin_url: "https://www.linkedin.com/in/prashant-malla-139339b2",
-    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/911/11757/1717680690776/front-left-side-47.jpg?tr=w-664",
+    image: "https://ghostuf.github.io/static_images/prashant_malla.png"
   },
   {
     name: "Saru Manandhar",
     position: "Software Engineer - Leapfrog Technology",
     linkedin_url: "https://www.linkedin.com/in/saru-manandhar-71222614a",
-    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/911/11757/1717680690776/front-left-side-47.jpg?tr=w-664",
+    image: "https://ghostuf.github.io/static_images/saru_manandhar.png"
   },
-  {
-    name: "Labbi Karmacharya",
-    position: "Data Scientist & Lecturer - Equitech Futures / Islington College",
-    linkedin_url: "https://www.linkedin.com/in/labbi-karmacharya/",
-    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/911/11757/1717680690776/front-left-side-47.jpg?tr=w-664",
-  },
+  // {
+  //   name: "Labbi Karmacharya",
+  //   position: "Data Scientist & Lecturer - Equitech Futures / Islington College",
+  //   linkedin_url: "https://www.linkedin.com/in/labbi-karmacharya/",
+  //   image: "https://ghostuf.github.io/static_images/labbi_karmacharya.png"
+  // },
   {
     name: "Rojan Upreti",
     position: "Machine Learning Engineer",
     linkedin_url: "", // No LinkedIn URL provided
-    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/911/11757/1717680690776/front-left-side-47.jpg?tr=w-664",
+    image: "https://ghostuf.github.io/static_images/rojan_upreti.png"
   },
 ]
 
