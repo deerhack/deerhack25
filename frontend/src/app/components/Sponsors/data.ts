@@ -8,8 +8,13 @@ import DevfolioLogo from "@/app/assets/images/sponsors/Devfolio_Logo-White.svg";
 // import PolygonLogo from "@/app/assets/images/sponsors/Polygon_Logo-White.svg";
 import HamroCSITLogo from "@/app/assets/images/sponsors/hamro_csit_logo_black.png";
 import HamroNotesLogo from "@/app/assets/images/sponsors/HamroNotesLogo.svg";
+import MeroStyle from "@/app/assets/images/sponsors/MeroStyle.svg";
 import GithubEducation from "@/app/assets/images/sponsors/GithubEducation.svg";
-import MountainJavaLogo from "@/app/assets/images/sponsors/MountainJavaLogo.svg";
+import NewMountainJava from "@/app/assets/images/sponsors/NewMountainJava.svg";
+import TingTing from "@/app/assets/images/sponsors/TingTing.svg"
+import CookieFactory from "@/app/assets/images/sponsors/CookieFactory.svg"  
+import CitizensBank from "@/app/assets/images/sponsors/CitizensBank.svg"  
+// import MountainJavaLogo from "@/app/assets/images/sponsors/MountainJavaLogo.svg";
 import HamroPatroLogo from "@/app/assets/images/sponsors/HamroPatro.svg";
 // import Programiz from "@/app/assets/images/sponsors/Programiz.svg";
 // import trainingcenter from "@/app/assets/images/sponsors/trainingcenter.png";
@@ -64,12 +69,19 @@ const sponsors: SponsorType[] = [
         image: HamroCSITLogo,
         imageAlt: "HamroCSIT Logo",
       },
+     {
+        name: "Mero Style",
+        url: "https://merostyle.com/",
+        image: MeroStyle,
+        imageAlt: "Mero Style Logo",
+      },
       {
         name: "Devfolio",
         url: "https://devfolio.co",
         image: DevfolioLogo,
         imageAlt: "DEVFOLIO LOGO",
       },
+      
         
     ],
   },
@@ -122,9 +134,66 @@ const sponsors: SponsorType[] = [
         url: "https://ultima.com.np/",
         image: ultima,
         imageAlt: "ultima",
+      }, 
+      {
+        name: "Github Education",
+        url: "https://github.com/education",
+        image: GithubEducation,
+        imageAlt: "GithubEucation logo",
       },
     ],
   },
+  {
+    name: "Track Sponsor",
+    sponsors: [
+      {
+        name: "HamroNotes",
+        url: "https://hamrocsit.com",
+        image: HamroNotesLogo,
+        imageAlt: "HamroNotesogo",
+      },
+      {
+        name: "TingTing",
+        url: "https://www.tingting.io/",
+        image: TingTing,
+        imageAlt: "TingTingLogo",
+      },
+    ],
+  },
+  {
+    name: "Coffee Partner",
+    sponsors: [
+      {
+        name: "Mountain Java",
+        url: "https://www.instagram.com/mountain_java_coffee/",
+        image: NewMountainJava,
+        imageAlt: "Mountain Java Logo",
+      },
+    ],
+  },
+  {
+    name: "Confectionary Partner",
+    sponsors: [
+      {
+        name: "The Cookie Factory",
+        url: "https://www.instagram.com/thecookiefactorynepal/?hl=en",
+        image: CookieFactory,
+        imageAlt: "The Cookie Factory Logo",
+      },
+    ],
+  },
+  {
+    name: "Supported By",
+    sponsors: [
+      {
+        name: "Citizens Bank",
+        url: "https://www.ctznbank.com/",
+        image: CitizensBank,
+        imageAlt: "Citizens Bank Logo",
+      },
+    ],
+  },
+    
 //   // {
 //   //   name: "Open Innovation Track Partner",
 //   //   sponsors: [
@@ -158,39 +227,10 @@ const sponsors: SponsorType[] = [
       },
     ],
   },
-{
-    name: "Track Sponsor",
-    sponsors: [
-      {
-        name: "HamroNotes",
-        url: "https://hamrocsit.com",
-        image: HamroNotesLogo,
-        imageAlt: "HamroNotesogo",
-      },
-    ],
-  },
-  {
-    name: "Coffee Partner",
-    sponsors: [
-      {
-        name: "Mountain Java",
-        url: "https://www.instagram.com/mountain_java_coffee/",
-        image: MountainJavaLogo,
-        imageAlt: "Mountain Java Logo",
-      },
-    ],
-  },
-  {
-    name: "Supported By:",
-    sponsors: [
-      {
-        name: "Github Education",
-        url: "https://github.com/education",
-        image: GithubEducation,
-        imageAlt: "GithubEucation logo",
-      },
-    ],
-  },
+
+  
+  
+  
 //   // {
 //   //   name: "Gifting Partner",
 //   //   sponsors: [
