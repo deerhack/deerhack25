@@ -29,7 +29,7 @@ export default function Home() {
       <ImageCarouselPage />
       <ExperiencePage />
       {/* <Judges /> */}
-      {/* <Mentors /> */}
+      <Mentors />
       <FAQ />
       <SponsorPage />
       <RegisterPage />
