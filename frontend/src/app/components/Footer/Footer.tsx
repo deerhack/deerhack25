@@ -71,7 +71,7 @@ export default function   Footer(): ReactElement {
                 </span>
                 <span className="w-[25px]">
                   <Link
-                    href="https://www.instagram.com/deerhack2024/"
+                    href="https://www.instagram.com/deerhack2025/"
                     target="_blank"
                   >
                     <InstagramSVG />

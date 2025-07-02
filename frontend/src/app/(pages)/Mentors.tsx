@@ -11,7 +11,7 @@ const Mentors = () => {
         className=" relative flex items-center flex-col my-20"
       >
         <h1 className={`headings ${cabinetExtraBold.className}`}>
-          Mentors for DeerHack 2024
+          Mentors for DeerHack 2025
         </h1>
         <Image
           src={leaf_prizes_right}

@@ -17,6 +17,7 @@ const MentorsList = async () => {
           key={mentor.name}
           name={mentor.name}
           image={mentor.image}
+          position={mentor.position}
           linkedin_url={mentor.linkedin_url}
         />
       ))}
