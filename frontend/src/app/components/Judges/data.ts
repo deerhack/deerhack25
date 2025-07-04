@@ -1,33 +1,33 @@
-import { BACKEND_URL, SERVER_URL } from "@/app/utils/config";
-import UserEntity from "@/app/types/userentity";
+import type Judges from "@/app/types/judges";
 
-const transformJudgeData = (judge: any) => ({
-  name: judge.attributes.name,
-  position: judge.attributes.position,
-  image: SERVER_URL + judge.attributes.image.data.attributes.url,
-  linkedin_url: judge.attributes.linkedin_url,
-});
 
-const fetchData = async () => {
-  try {
-    const response = await fetch(`${BACKEND_URL}/api/judges?populate=image`, {
-      cache: "no-store",
-    });
 
-    if (!response.ok) {
-      console.log(`Failed to fetch data. Status: ${response.status}`);
-      return [];
-    }
 
-    const data = await response.json();
+const Judges: Judges[] = [
+  {
+    name:"Babu Ram Aryal",
+    image:"https://ghostuf.github.io/static_images/babu_ram_aryal.png",
+    linkedin_url:"https://www.linkedin.com/in/baburamaryal/",
+    position:"Chairman and MD, Delta Law Firm",
+  },
+    {
+    name:"Binay Khadka",
+    image:"https://ghostuf.github.io/static_images/binay_khadka.png",
+    linkedin_url:"https://www.linkedin.com/in/binay-khadka-100485b9/",
+    position:"CEO, Khalti",
+  },
+  {
+    name:"Saroj Dahal",
+    image:"https://ghostuf.github.io/static_images/saroj_dahal.png",
+    linkedin_url:"https://www.linkedin.com/in/isarojdahal/",
+    position:"Founder/CTO, 28Softwares",
+  },
+  {
+    name:"Yasmine Bhattrai",
+    image:"https://ghostuf.github.io/static_images/yasmine_bhattrai.png",
+    linkedin_url:"https://www.linkedin.com/in/yasmine-bhattarai/",
+    position:"Cyber Security Expert ",
+  },
+];
 
-    const judges: UserEntity[] = data.data.map(transformJudgeData);
-
-    return judges;
-  } catch (error) {
-    console.error("Error fetching judges");
-    return [];
-  }
-};
-
-export default fetchData;
+export { Judges };

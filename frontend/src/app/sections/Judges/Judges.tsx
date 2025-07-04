@@ -1,7 +1,7 @@
-import Judges from "@/app/components/Judges/Judges";
+import JudgesList from "@/app/components/Judges/Judges";
 
 const JudgesSection = () => {
-  return <Judges />;
+  return <JudgesList />;
 };
 
 export default JudgesSection;
