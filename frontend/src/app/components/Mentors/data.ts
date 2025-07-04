@@ -54,7 +54,7 @@ const Mentors_value: Mentors[] = [
   },
   {
     name: "Mala Deep Upadhaya",
-    position: "Data Consultant - Dataksha Analytics",
+    position: "Data Consultant",
     linkedin_url: "https://www.linkedin.com/in/maladeep",
     image: "https://ghostuf.github.io/static_images/mala_deep_upadhyaya.jpg"
   },
@@ -66,7 +66,7 @@ const Mentors_value: Mentors[] = [
   // },
   {
     name: "Yashaswee Sakha",
-    position: "UI/UX Engineer, Deerhold Ltd.",
+    position: "UI/UX Engineer",
     linkedin_url: "https://www.linkedin.com/in/yashaswee-sakha/",
     image: "https://ghostuf.github.io/static_images/yashaswee_sakha.jpg"
   },
@@ -78,19 +78,19 @@ const Mentors_value: Mentors[] = [
   },
   {
     name: "Sushan Shakya",
-    position: "Full Stack Developer - RIMES",
-    linkedin_url: "https://www.linkedin.com/in/sushan-shakya-8953711a6/",
+    position: "Data Engineer",
+    linkedin_url: "https://www.linkedin.com/in/er-sushan-shakya-88b78b17b/",
     image: "https://ghostuf.github.io/static_images/sushan_shakya.jpg"
   },
   {
     name: "Prashant Malla",
-    position: "Embedded System Engineer - Truenary Solutions",
+    position: "Embedded System Engineer",
     linkedin_url: "https://www.linkedin.com/in/prashant-malla-139339b2",
     image: "https://ghostuf.github.io/static_images/prashant_malla.jpg"
   },
   {
     name: "Saru Manandhar",
-    position: "Software Engineer - Leapfrog Technology",
+    position: "Software Engineer",
     linkedin_url: "https://www.linkedin.com/in/saru-manandhar-71222614a",
     image: "https://ghostuf.github.io/static_images/saru_manandhar.jpg"
   },
@@ -105,6 +105,12 @@ const Mentors_value: Mentors[] = [
     position: "Machine Learning Engineer",
     linkedin_url: "https://www.linkedin.com/in/rojanupreti/", // No LinkedIn URL provided
     image: "https://ghostuf.github.io/static_images/rojan_upreti.jpg"
+  },
+   {
+    name: "Avinash Mishra",
+    position: "Senior Software Engineer",
+    linkedin_url: "https://www.linkedin.com/in/avinash-mishra-np/", // No LinkedIn URL provided
+    image: "https://ghostuf.github.io/static_images/avinash_mishra.png"
   },
 ]
 
