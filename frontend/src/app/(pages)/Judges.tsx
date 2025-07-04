@@ -18,7 +18,7 @@ const Judges = () => {
       />
       <div key="judgeContainer" className="flex items-center flex-col my-20">
         <h1 className={`headings ${cabinetExtraBold.className}`}>
-          Judges for DeerHack 2024
+          Judges for DeerHack 2025
         </h1>
         <JudgesSection />
       </div>
