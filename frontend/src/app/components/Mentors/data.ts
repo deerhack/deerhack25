@@ -48,7 +48,7 @@ const Mentors_value: Mentors[] = [
   },
   {
     name: "Luja Chitrakar",
-    position: "Clock B Tech",
+    position: "Blockchain Developer",
     linkedin_url: "https://www.linkedin.com/in/luja-chitrakar/",
     image:"https://ghostuf.github.io/static_images/luja_chitrakar.jpeg"
   },
@@ -58,12 +58,12 @@ const Mentors_value: Mentors[] = [
     linkedin_url: "https://www.linkedin.com/in/maladeep",
     image: "https://ghostuf.github.io/static_images/mala_deep_upadhyaya.jpg"
   },
-  // {
-  //   name: "Elisha Baniya",
-  //   position: "QA - Maitri Services",
-  //   linkedin_url: "https://www.linkedin.com/in/elishabaniya",
-  //   image: "https://ghostuf.github.io/static_images/elisha_baniya.jpg"
-  // },
+  {
+    name: "Elisha Baniya",
+    position: "QA Engineer",
+    linkedin_url: "https://www.linkedin.com/in/elishabaniya",
+    image: "https://ghostuf.github.io/static_images/elisha_baniya.png"
+  },
   {
     name: "Yashaswee Sakha",
     position: "UI/UX Engineer",
