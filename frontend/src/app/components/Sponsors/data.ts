@@ -7,6 +7,7 @@ import DevfolioLogo from "@/app/assets/images/sponsors/Devfolio_Logo-White.svg";
 // import ETHIndiaLogo from "@/app/assets/images/sponsors/ethindia-light.svg";
 // import PolygonLogo from "@/app/assets/images/sponsors/Polygon_Logo-White.svg";
 import HamroCSITLogo from "@/app/assets/images/sponsors/hamro_csit_logo_black.png";
+import ProgramizLogo from "@/app/assets/images/sponsors/ProgramizLogo.svg";
 import MeroJobLogo from "@/app/assets/images/sponsors/MeroJobLogo.svg";
 import PimbahalChipsLogo from "@/app/assets/images/sponsors/PimbahalChipsLogo.svg"; 
 import HamroNotesLogo from "@/app/assets/images/sponsors/HamroNotesLogo.svg";
@@ -211,6 +212,12 @@ const sponsors: SponsorType[] = [
         url: "https://www.instagram.com/pimbahalfreshchipscorner/?hl=en",
         image: PimbahalChipsLogo,
         imageAlt: "PimbahalChipsLogo",
+      },
+      {
+        name: "Programiz",
+        url: "https://www.programiz.com/",
+        image: ProgramizLogo,
+        imageAlt: "ProgramizLogo",
       },
     ],
   },
