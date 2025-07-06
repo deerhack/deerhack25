@@ -154,7 +154,7 @@ const Navbar = () => {
                 </div>
 
                 <Link href="/organizers" className="hover:text-secondary text-2xl">
-                  {/* Organizers */}
+                  Organizers
                 </Link>
 
                 {/* <Link href="/legacy" className="hover:text-secondary text-2xl">
@@ -223,7 +223,7 @@ const Navbar = () => {
               </div>
 
               <Link href="/organizers" className={`hover:text-secondary text-base ${cabinetBold.className}`}>
-                {/* Organizers */}
+                Organizers
               </Link>
 
               {/* <Link href="/legacy" className={`hover:text-secondary text-base ${cabinetBold.className}`}>

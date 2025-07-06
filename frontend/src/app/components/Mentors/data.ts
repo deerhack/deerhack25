@@ -108,7 +108,7 @@ const Mentors_value: Mentors[] = [
   },
    {
     name: "Avinash Mishra",
-    position: "Senior Software Engineer",
+    position: "Lead Engineer",
     linkedin_url: "https://www.linkedin.com/in/avinash-mishra-np/", // No LinkedIn URL provided
     image: "https://ghostuf.github.io/static_images/avinash_mishra.png"
   },
