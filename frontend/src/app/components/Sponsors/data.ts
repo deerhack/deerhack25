@@ -7,6 +7,8 @@ import DevfolioLogo from "@/app/assets/images/sponsors/Devfolio_Logo-White.svg";
 // import ETHIndiaLogo from "@/app/assets/images/sponsors/ethindia-light.svg";
 // import PolygonLogo from "@/app/assets/images/sponsors/Polygon_Logo-White.svg";
 import HamroCSITLogo from "@/app/assets/images/sponsors/hamro_csit_logo_black.png";
+import MeroJobLogo from "@/app/assets/images/sponsors/MeroJobLogo.svg";
+import PimbahalChipsLogo from "@/app/assets/images/sponsors/PimbahalChipsLogo.svg"; 
 import HamroNotesLogo from "@/app/assets/images/sponsors/HamroNotesLogo.svg";
 import MeroStyle from "@/app/assets/images/sponsors/MeroStyle.svg";
 import GithubEducation from "@/app/assets/images/sponsors/GithubEducation.svg";
@@ -160,6 +162,19 @@ const sponsors: SponsorType[] = [
       },
     ],
   },
+
+  {
+    name: "Career Partner",
+    sponsors: [
+        {
+           name: "Mero Job",
+           url: "https://merojob.com/",
+           image: MeroJobLogo,
+           imageAlt: "Mero Job Logo",
+        },
+    ],
+  },
+
   {
     name: "Coffee Partner",
     sponsors: [
@@ -190,6 +205,12 @@ const sponsors: SponsorType[] = [
         url: "https://www.ctznbank.com/",
         image: CitizensBank,
         imageAlt: "Citizens Bank Logo",
+      },
+      {
+        name: "Pimbahal Chips",
+        url: "https://www.instagram.com/pimbahalfreshchipscorner/?hl=en",
+        image: PimbahalChipsLogo,
+        imageAlt: "PimbahalChipsLogo",
       },
     ],
   },
