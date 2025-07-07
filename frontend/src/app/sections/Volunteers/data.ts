@@ -117,7 +117,7 @@ export const Volunteers_value : Volunteers[] = [
     {
         name: "Shine Pathak",
         image: "https://ghostuf.github.io/static_images/oc/shine_pathak.jpg",
-        linkedin_url: "https://www.linkedin.com/in/shine-pathak-8a011824b?trk=contact-info"
+        linkedin_url: "https://www.linkedin.com/in/shine-pathak-8a011824b?trk=contact-info",
     },
 
     {
