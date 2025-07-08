@@ -7,6 +7,9 @@ import DevfolioLogo from "@/app/assets/images/sponsors/Devfolio_Logo-White.svg";
 // import ETHIndiaLogo from "@/app/assets/images/sponsors/ethindia-light.svg";
 // import PolygonLogo from "@/app/assets/images/sponsors/Polygon_Logo-White.svg";
 import HamroCSITLogo from "@/app/assets/images/sponsors/hamro_csit_logo_black.png";
+import ProgramizLogo from "@/app/assets/images/sponsors/ProgramizLogo.svg";
+import NimbLogo from "@/app/assets/images/sponsors/NimbLogo.svg";
+import HimalayanBankLogo from "@/app/assets/images/sponsors/HimalayanBankLogo.svg";
 import MeroJobLogo from "@/app/assets/images/sponsors/MeroJobLogo.svg";
 import PimbahalChipsLogo from "@/app/assets/images/sponsors/PimbahalChipsLogo.svg"; 
 import HamroNotesLogo from "@/app/assets/images/sponsors/HamroNotesLogo.svg";
@@ -56,6 +59,18 @@ const sponsors: SponsorType[] = [
   //     },
   //   ],
   // },
+  {
+    name: "Platinum Sponsor",
+    sponsors: [
+        {
+            name: "NIMB Ltd.",
+            url: "https://www.nimb.com.np/en/personal-banking",
+            image: NimbLogo,
+            imageAlt: "Nimb Logo",
+        },
+    ],
+  },
+
   {
     name: "Gold Sponsors",
     sponsors: [
@@ -208,9 +223,21 @@ const sponsors: SponsorType[] = [
       },
       {
         name: "Pimbahal Chips",
-        url: "https://www.instagram.com/pimbahalfreshchipscorner/?hl=en",
+        url: "https://www.instagram.com/pimbahalfreshpotatochipscorner/",
         image: PimbahalChipsLogo,
         imageAlt: "PimbahalChipsLogo",
+      },
+      {
+        name: "Programiz",
+        url: "https://www.programiz.com/",
+        image: ProgramizLogo,
+        imageAlt: "ProgramizLogo",
+      },
+      {
+          name: "Himalayan Bank ltd.",
+          url: "https://www.himalayanbank.com/en/",
+          image: HimalayanBankLogo,
+          imageAlt: "HimalayanBank Logo",
       },
     ],
   },
