@@ -199,6 +199,26 @@ const teamsData: Array<Team> = [
       },
     ],
   },
+  {
+    id: 9,
+    name: "IT Team",
+    organizers: [
+      {
+        id: 901,
+        name: "Sunav Sharma",
+        image: "https://ghostuf.github.io/static_images/oc/sunav_sharma.jpg",
+        linkedin_url: "https://www.linkedin.com/in/sunav-sharma-382436254/",
+        position: "IT Team",
+      },
+      {
+        id: 902,
+        name: "Sneha Shrestha",
+        image: "https://ghostuf.github.io/static_images/oc/sneha_shrestha.jpg",
+        linkedin_url: "https://www.linkedin.com/in/sneha-shrestha-6aa095264/",
+        position: "IT Team",
+      },
+    ],
+  }
 ];
 
 export default teamsData;
