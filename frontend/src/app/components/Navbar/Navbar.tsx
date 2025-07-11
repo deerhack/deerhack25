@@ -91,7 +91,7 @@ const Navbar = () => {
             </button>
 
             <div className="hidden lg:block ">
-              <Counter_wrapper />
+              {/* <Counter_wrapper /> */}
             </div>
           </div>
 
@@ -100,7 +100,7 @@ const Navbar = () => {
             <div className="flex flex-col h-[calc(100vh-80px)] justify-start px-4 py-5 lg:hidden ">
               {/* Counter */}
               <div className="flex justify-start mb-10 mt-16">
-                <Counter_wrapper />
+                {/* <Counter_wrapper /> */}
               </div>
 
               {/* Navigation Links */}
