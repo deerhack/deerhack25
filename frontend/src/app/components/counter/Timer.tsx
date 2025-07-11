@@ -50,7 +50,7 @@ const Counter = ({targetDate,className}:CounterProp) => {
   };
 
   return (
-    <div className={`lg:max-w-full`}>
+    <div className={`lg:max-w-full text-primary-gradient-color`}>
       <div className="flex justify-center flex-wrap">
         <div className="flex flex-col items-center lg:min-w-48 md:min-w-16">
           <p
