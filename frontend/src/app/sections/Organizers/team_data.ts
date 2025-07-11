@@ -109,6 +109,13 @@ const teamsData: Array<Team> = [
         linkedin_url: "https://www.linkedin.com/in/sukriti-pyakurel-05b0132ba/",
         position: "PR and Social Media",
       },
+      {
+        id: 503,
+        name: "Kritishma Singh Maharjan",
+        image: "https://ghostuf.github.io/static_images/oc/kritishma_singh_maharjan.jpg",
+        linkedin_url: "https://www.linkedin.com/in/kritishma-singh-maharjan-b539482b9/",
+        position: "PR and Social Media",
+      }
     ],
   },
   {
