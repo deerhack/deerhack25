@@ -78,13 +78,17 @@ const COD = () => {
           className="absolute top-[165rem] right-0 lg:block hidden"
           style={{ transform: "rotate(-5deg)" }}
         />
-        <div className="headings">
+        {/* <div className="headings">
           {
             <div className={`${cabinetExtraBold.className} headings`}>
               <p>The event has ended. Thank you for participating!</p>
             </div>
           }
-        </div>
+        </div> */}
+
+
+
+      <Timer_wrapper targetDate="July 13 ,2025 8:00:00"/>
       </div>
       {/* <Footer/> */}
     </>
