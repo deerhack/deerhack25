@@ -45,6 +45,9 @@ import ultima from "@/app/assets/images/sponsors/ultima.svg";
 // import adex from "@/app/assets/images/sponsors/adex.png";
 // import livebakery from "@/app/assets/images/sponsors/livebakery.png";
 // import metlife from "@/app/assets/images/sponsors/metlife.png";
+import suiro from "@/app/assets/images/sponsors/suiro.png";
+import YOLO from "@/app/assets/images/sponsors/yolo.png";
+import HotelAssociation from "@/app/assets/images/sponsors/hotelassociation.png";
 
 
 const sponsors: SponsorType[] = [
@@ -98,6 +101,13 @@ const sponsors: SponsorType[] = [
         image: DevfolioLogo,
         imageAlt: "DEVFOLIO LOGO",
       },
+      {
+        name: "YOLO Shoes",
+        url: "https://www.instagram.com/yolobrand_/?hl=en",
+        image: YOLO,
+        imageAlt: "YOLO LOGO",
+      },
+
       
         
     ],
@@ -158,10 +168,16 @@ const sponsors: SponsorType[] = [
         image: GithubEducation,
         imageAlt: "GithubEucation logo",
       },
+      {
+        name: "Suito Teas",
+        url: "https://suiroteas.com/",
+        image: suiro,
+        imageAlt: "Suiro Teas Logo",
+      },
     ],
   },
   {
-    name: "Track Sponsor",
+    name: "ED Tech Partner",
     sponsors: [
       {
         name: "HamroNotes",
@@ -169,11 +185,51 @@ const sponsors: SponsorType[] = [
         image: HamroNotesLogo,
         imageAlt: "HamroNotesogo",
       },
+    ],
+  },
+  {
+    name: "Data Science And Machine Learning Partner",
+    sponsors: [
       {
         name: "TingTing",
         url: "https://www.tingting.io/",
         image: TingTing,
         imageAlt: "TingTingLogo",
+      },
+    ],
+  },
+  {
+    name: "Hospitality Partner",
+    sponsors: [
+      {
+        name: "Hotel Association of Bhaktapur",
+        url: "https://www.facebook.com/hotelsbkt/",
+        image: HotelAssociation,
+        imageAlt: "HotelAssociationLogo",
+      },
+    ],
+  },
+
+  {
+    name: "Coffee Partner",
+    sponsors: [
+      {
+        name: "Mountain Java",
+        url: "https://www.instagram.com/mountain_java_coffee/",
+        image: NewMountainJava,
+        imageAlt: "Mountain Java Logo",
+      },
+    ],
+  },
+  
+  {
+    name: "Confectionary Partner",
+    sponsors: [
+      {
+        name: "The Cookie Factory",
+        url: "https://www.instagram.com/thecookiefactorynepal/?hl=en",
+        image: CookieFactory,
+        imageAlt: "The Cookie Factory Logo",
       },
     ],
   },
@@ -190,28 +246,8 @@ const sponsors: SponsorType[] = [
     ],
   },
 
-  {
-    name: "Coffee Partner",
-    sponsors: [
-      {
-        name: "Mountain Java",
-        url: "https://www.instagram.com/mountain_java_coffee/",
-        image: NewMountainJava,
-        imageAlt: "Mountain Java Logo",
-      },
-    ],
-  },
-  {
-    name: "Confectionary Partner",
-    sponsors: [
-      {
-        name: "The Cookie Factory",
-        url: "https://www.instagram.com/thecookiefactorynepal/?hl=en",
-        image: CookieFactory,
-        imageAlt: "The Cookie Factory Logo",
-      },
-    ],
-  },
+
+
   {
     name: "Supported By",
     sponsors: [
