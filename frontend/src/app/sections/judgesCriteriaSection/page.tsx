@@ -22,7 +22,7 @@ const page = () => {
       </h1>
       
       <div className={`${satoshiRegular.className} flex flex-col text-white md:px-24 px-10 text-justify text-wrap font-[400]`}>
-        {data.sections.map((section) => (
+        {data.sections.map((section, sectionIndex) => (
           <div key={section.title}>
             <h2 className={`lg:text-[2.25rem] headings ${cabinetExtraBold.className} mb-10`}>
               {section.title}
@@ -39,7 +39,9 @@ const page = () => {
               </p>
             ))}
             
-
+            {sectionIndex < data.sections.length - 1 && (
+              <><br /><br /><br /></>
+            )}
           </div>
         ))}
       </div>
