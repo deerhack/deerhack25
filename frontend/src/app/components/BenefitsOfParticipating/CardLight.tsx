@@ -19,7 +19,7 @@ export default function CardLight({
   svg: ReactElement;
 }) {
   return (
-    <div className="secondary-gradient-background lg:w-[32.93rem] lg:h-[18.37rem] md:w-[36rem] w-full min-h-[17.93rem] h-fit rounded-[1.875rem] p-[0.1875rem] relative justify-start gap-5">
+    <div className="secondary-gradient-background lg:w-[32.93rem] lg:h-[18.372rem] md:w-[36rem] min-h-[17.93rem] rounded-[1.875rem] p-[0.1875rem] relative justify-start gap-5">
       <div className=" w-full h-full rounded-[1.875rem] flex flex-col px-12 gap-7 justify-center items-start">
         <div>
         <div
