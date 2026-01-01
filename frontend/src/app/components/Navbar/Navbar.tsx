@@ -170,9 +170,9 @@ const Navbar = () => {
               <div className="flex justify-start mt-6 ">
                 <Link href="https://deerhack-25.devfolio.co/" target="_blank">
                   <button
-                    className={`${satoshiBlack.className} font-[20px] bg-secondary text-dark-purple text-xl p-3 rounded bg-opacity-90 hover:bg-opacity-100 transition duration-300 ease-in-out w-[13rem]`}
+                    className={`${satoshiBlack.className} font-[20px] bg-secondary text-dark-purple text-[16px] p-3 rounded bg-opacity-90 hover:bg-opacity-100 transition duration-300 ease-in-out w-[13rem]`}
                   >
-                    Register Now
+                    Registration Closed 
                   </button>
                 </Link>
               </div>
@@ -238,9 +238,9 @@ const Navbar = () => {
             <div>
               <Link href="https://deerhack-25.devfolio.co/" target="_blank">
                 <button
-                  className={`${satoshiBlack.className} font-[20px] bg-secondary text-dark-purple text-xl p-3 rounded bg-opacity-90 hover:bg-opacity-100 transition duration-300 ease-in-out w-[13rem]`}
+                  className={`${satoshiBlack.className} font-[20px] bg-secondary text-dark-purple text-[18px]   p-3 rounded bg-opacity-90 hover:bg-opacity-100 transition duration-300 ease-in-out w-[13rem] `}
                 >
-                  Register Now
+                  Registration Closed
                 </button>
               </Link>
             </div>

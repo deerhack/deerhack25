@@ -31,7 +31,7 @@ export default function RegisterCard(): ReactElement {
             <button
               className={` ${satoshiBlack.className} text-center text-sm lg:text-xl bg-secondary text-dark-purple p-3 rounded lg:ml-20 bg-opacity-90 hover:bg-opacity-100 transition duration-300 ease-in-out w-fit md:w-[13rem]  `}
             >
-              Register Now
+              Registration Closed
             </button>
           </Link>
         </div>
