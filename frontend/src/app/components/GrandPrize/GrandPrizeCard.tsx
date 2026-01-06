@@ -17,7 +17,7 @@ export default function GrandPrizeCard(): ReactElement {
         </p>
       </div>
 
-      <p
+      <div
         className={`${cabinetBlack.className} text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-left ml-10 mt-28 relative`}
       >
         Rs.
@@ -28,7 +28,7 @@ export default function GrandPrizeCard(): ReactElement {
         <div className="absolute bottom-[-6rem] right-0">
           <Leaf height={300} width={300} />
         </div>
-      </p>
+      </div>
     </div>
   )
 }
